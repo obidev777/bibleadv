@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify,send_from_directory
+from flask import Flask, render_template, request, jsonify, send_from_directory
 import json
 import os
 import re
@@ -129,7 +129,6 @@ def normalizar_nombre_libro(nombre):
     # Limpiar prefijos comunes (S., San, etc.)
     nombre_limpio = re.sub(r'^(s\.|san|santa|santo)\s+', '', nombre, flags=re.IGNORECASE)
     if nombre_limpio != nombre:
-        print(f"  Limpiado prefijo: '{nombre}' -> '{nombre_limpio}'")
         nombre = nombre_limpio
     
     # Convertir a minúsculas para comparación
@@ -151,7 +150,6 @@ def es_diccionario_valido(data):
 def ordenar_capitulos_versiculos(data):
     """Ordena capítulos y versículos numéricamente"""
     if not es_diccionario_valido(data):
-        print(f"  Datos no válidos para ordenar: {type(data)}")
         return {}
     
     capitulos_ordenados = {}
@@ -212,7 +210,7 @@ def cargar_biblia():
     try:
         print("Cargando archivo RV1960.json...")
         
-        with open('data/RV1960.json', 'r') as f:
+        with open('data/RV1960.json', 'r', encoding='utf-8') as f:
             biblia_data = json.load(f)
         
         print(f"Tipo de datos cargados: {type(biblia_data)}")
@@ -273,14 +271,12 @@ def cargar_biblia():
                 continue
                 
             libro_normalizado = normalizar_nombre_libro(libro_original)
-            print(f"  Procesando libro no encontrado: '{libro_original}' -> '{libro_normalizado}'")
             
             # Verificar si el libro normalizado ya está en la biblia ordenada
             ya_existe = False
             for libro_orden in biblia_ordenada.keys():
                 if normalizar_nombre_libro(libro_orden) == libro_normalizado:
                     ya_existe = True
-                    print(f"  ⚠️  Ya existe como: '{libro_orden}'")
                     break
             
             if not ya_existe and es_diccionario_valido(biblia_data[libro_original]):
@@ -289,19 +285,10 @@ def cargar_biblia():
                     # Usar el nombre normalizado para el libro
                     biblia_ordenada[libro_normalizado] = contenido_ordenado
                     libros_procesados.add(libro_original)
-                    print(f"  + Agregado: '{libro_original}' -> '{libro_normalizado}'")
         
         print(f"\n✅ Procesamiento completado")
         print(f"Total de libros procesados: {len(libros_procesados)}/{len(libros_originales)}")
         print(f"Total de libros en Biblia ordenada: {len(biblia_ordenada)}")
-        
-        # Mostrar el orden final
-        print("\nORDEN FINAL DE LIBROS:")
-        for testamento in ORDEN_LIBROS:
-            print(f"\n{testamento}:")
-            for i, libro in enumerate(ORDEN_LIBROS[testamento], 1):
-                if libro in biblia_ordenada:
-                    print(f"  {i:2d}. {libro}")
             
         return biblia_ordenada
             
@@ -313,27 +300,57 @@ def cargar_biblia():
         return {}
     except Exception as e:
         print(f"❌ Error procesando la Biblia: {e}")
-        import traceback
-        print(f"Traceback: {traceback.format_exc()}")
         return {}
 
 def cargar_comentarios():
     comentarios = {}
     try:
-        print("Cargando comentarios...")
+        print("Cargando comentarios principales...")
         for i in range(1, 67):
             archivo = f'data/comment/{i}.json'
             if os.path.exists(archivo):
-                with open(archivo, 'r') as f:
-                    data = json.load(f)
-                    nombre_libro = data.get('libro', '')
-                    if nombre_libro:
-                        nombre_normalizado = normalizar_nombre_libro(nombre_libro)
-                        comentarios[nombre_normalizado] = data.get('comentarios', [])
-        print(f"✓ Comentarios cargados: {len(comentarios)} libros")
+                try:
+                    with open(archivo, 'r') as f:
+                        data = json.load(f)
+                        nombre_libro = data.get('libro', '')
+                        if nombre_libro:
+                            nombre_normalizado = normalizar_nombre_libro(nombre_libro)
+                            comentarios[nombre_normalizado] = data.get('comentarios', [])
+                            print(f"  ✓ {nombre_normalizado}")
+                except Exception as e:
+                    print(f"  ❌ Error cargando {archivo}: {e}")
+        
+        print(f"✅ Comentarios principales cargados: {len(comentarios)} libros")
+        return comentarios
+        
     except Exception as e:
         print(f"❌ Error cargando comentarios: {e}")
-    return comentarios
+        return {}
+
+def cargar_comentarios_cba():
+    """Cargar solo los comentarios del CBA en una estructura separada"""
+    comentarios_cba = {}
+    try:
+        print("Cargando comentarios CBA para ampliación...")
+        archivo_cba = 'data/cba.json'
+        if os.path.exists(archivo_cba):
+            with open(archivo_cba, 'r', encoding='utf-8') as f:
+                cba_data = json.load(f)
+            
+            for libro, capitulos in cba_data.items():
+                if libro and isinstance(capitulos, dict):
+                    libro_normalizado = normalizar_nombre_libro(libro)
+                    comentarios_cba[libro_normalizado] = capitulos
+                    print(f"  ✓ CBA: {libro_normalizado}")
+            
+            print(f"✅ Comentarios CBA cargados: {len(comentarios_cba)} libros")
+        else:
+            print("⚠️  Archivo data/cba.json no encontrado")
+            
+    except Exception as e:
+        print(f"❌ Error cargando comentarios CBA: {e}")
+    
+    return comentarios_cba
 
 def cargar_cba_append():
     """Cargar el archivo de apéndices CBA"""
@@ -341,7 +358,7 @@ def cargar_cba_append():
         print("Cargando archivo cba_append.json...")
         with open('data/cba_append.json', 'r') as f:
             cba_data = json.load(f)
-        print(f"✓ CBA Append cargado: {len(cba_data)} documentos")
+        print(f"✅ CBA Append cargado: {len(cba_data)} documentos")
         return cba_data
     except FileNotFoundError:
         print("⚠️  Archivo data/cba_append.json no encontrado")
@@ -372,8 +389,6 @@ def procesar_referencias(referencia_completa):
                 # Normalizar el nombre del libro
                 ultimo_libro = normalizar_nombre_libro(libro_ref)
                 referencia_completa = f"{ultimo_libro} {resto_ref}"
-                
-                print(f"  Referencia procesada: '{libro_ref}' -> '{ultimo_libro}'")
         else:
             # Referencia sin libro: "1:1" - usar el último libro conocido
             if ultimo_libro:
@@ -393,14 +408,16 @@ print("=" * 60)
 
 BIBLIA = cargar_biblia()
 COMENTARIOS = cargar_comentarios()
+COMENTARIOS_CBA = cargar_comentarios_cba()
 CBA_APPEND = cargar_cba_append()
 
 print("\n" + "=" * 60)
 print("RESUMEN FINAL")
 print("=" * 60)
 print(f"📚 Libros cargados en la Biblia: {len(BIBLIA)}")
-print(f"💭 Libros con comentarios: {len(COMENTARIOS)}")
-print(f"📖 Documentos CBA cargados: {len(CBA_APPEND)}")
+print(f"💭 Libros con comentarios principales: {len(COMENTARIOS)}")
+print(f"📖 Comentarios CBA cargados: {len(COMENTARIOS_CBA)}")
+print(f"📋 Documentos CBA cargados: {len(CBA_APPEND)}")
 
 @app.route('/')
 def index():
@@ -416,7 +433,6 @@ def obtener_libros():
 @app.route('/capitulos/<libro>')
 def obtener_capitulos(libro):
     libro_normalizado = normalizar_nombre_libro(libro)
-    print(f"Buscando capítulos para: '{libro}' -> '{libro_normalizado}'")
     
     # Buscar libro exacto
     if libro in BIBLIA and es_diccionario_valido(BIBLIA[libro]):
@@ -428,16 +444,13 @@ def obtener_capitulos(libro):
         if normalizar_nombre_libro(libro_biblia) == libro_normalizado:
             if es_diccionario_valido(BIBLIA[libro_biblia]):
                 capitulos = list(BIBLIA[libro_biblia].keys())
-                print(f"  Encontrado: '{libro_biblia}' con {len(capitulos)} capítulos")
                 return jsonify(capitulos)
     
-    print(f"  No encontrado: '{libro}'")
     return jsonify([])
 
 @app.route('/versiculos/<libro>/<capitulo>')
 def obtener_versiculos(libro, capitulo):
     libro_normalizado = normalizar_nombre_libro(libro)
-    print(f"Buscando versículos: '{libro}' -> '{libro_normalizado}' capítulo {capitulo}")
     
     # Buscar libro exacto
     if libro in BIBLIA and es_diccionario_valido(BIBLIA[libro]):
@@ -449,11 +462,9 @@ def obtener_versiculos(libro, capitulo):
         if normalizar_nombre_libro(libro_biblia) == libro_normalizado:
             if es_diccionario_valido(BIBLIA[libro_biblia]):
                 if capitulo in BIBLIA[libro_biblia] and isinstance(BIBLIA[libro_biblia][capitulo], dict):
-                    print(f"  Encontrado en: '{libro_biblia}'")
                     return jsonify(BIBLIA[libro_biblia][capitulo])
             break
     
-    print(f"  No encontrado: '{libro}' capítulo {capitulo}")
     return jsonify({})
 
 @app.route('/comentarios/<libro>/<capitulo>/<versiculo>')
@@ -462,57 +473,150 @@ def obtener_comentario(libro, capitulo, versiculo):
         libro_normalizado = normalizar_nombre_libro(libro)
         print(f"Buscando comentario: '{libro}' -> '{libro_normalizado}' {capitulo}:{versiculo}")
         
-        # Buscar comentarios para el libro normalizado
+        comentario_principal = ""
+        referencia_principal = ""
+        referencias_separadas_principal = []
+        
+        # 1. BUSCAR EN COMENTARIOS PRINCIPALES (data/comment/)
+        comentario_encontrado_principal = False
         if libro_normalizado in COMENTARIOS:
             comentarios_libro = COMENTARIOS[libro_normalizado]
-            print(f"  Comentarios encontrados para: '{libro_normalizado}'")
-        else:
-            # Buscar por coincidencia parcial del nombre
-            for nombre_libro in COMENTARIOS.keys():
-                if nombre_libro.lower().startswith(libro_normalizado.lower()) or libro_normalizado.lower().startswith(nombre_libro.lower()):
-                    comentarios_libro = COMENTARIOS[nombre_libro]
-                    print(f"  Comentarios encontrados por coincidencia: '{nombre_libro}'")
-                    break
-            else:
-                print(f"  No hay comentarios para: '{libro_normalizado}'")
-                return jsonify({'comentario': 'No hay comentario disponible para este versículo.', 'referencia': ''})
-
-        for comentario_capitulo in comentarios_libro:
-            if str(comentario_capitulo['capitulo']) == str(capitulo):
-                for comentario_versiculo in comentario_capitulo['versiculos']:
-                    vers_ref = comentario_versiculo['versiculo']
-                    # Manejar rangos de versículos (ej: "1-3")
-                    if '-' in vers_ref:
-                        try:
-                            inicio, fin = map(int, vers_ref.split('-'))
-                            if inicio <= int(versiculo) <= fin:
-                                referencia_completa = comentario_versiculo.get('referencia', '')
-                                referencias = procesar_referencias(referencia_completa)
-                                
-                                return jsonify({
-                                    'comentario': comentario_versiculo['comentario'],
-                                    'referencia': referencia_completa,
-                                    'referencias_separadas': referencias
-                                })
-                        except ValueError:
-                            continue
-                    # Coincidencia exacta
-                    elif str(vers_ref) == str(versiculo):
-                        referencia_completa = comentario_versiculo.get('referencia', '')
-                        referencias = procesar_referencias(referencia_completa)
+            
+            for comentario_capitulo in comentarios_libro:
+                if str(comentario_capitulo['capitulo']) == str(capitulo):
+                    for comentario_versiculo in comentario_capitulo['versiculos']:
+                        vers_ref = comentario_versiculo['versiculo']
                         
-                        return jsonify({
-                            'comentario': comentario_versiculo['comentario'],
-                            'referencia': referencia_completa,
-                            'referencias_separadas': referencias
-                        })
+                        # Manejar rangos de versículos
+                        if '-' in vers_ref:
+                            try:
+                                inicio, fin = map(int, vers_ref.split('-'))
+                                if inicio <= int(versiculo) <= fin:
+                                    comentario_principal = comentario_versiculo.get('comentario', '')
+                                    referencia_principal = comentario_versiculo.get('referencia', '')
+                                    # PROCESAR REFERENCIAS DEL COMENTARIO PRINCIPAL
+                                    if referencia_principal:
+                                        referencias_separadas_principal = procesar_referencias(referencia_principal)
+                                    else:
+                                        referencias_separadas_principal = []
+                                    comentario_encontrado_principal = True
+                                    print(f"  ✅ Encontrado comentario principal para rango {vers_ref}")
+                                    break
+                            except ValueError:
+                                continue
+                        # Coincidencia exacta
+                        elif str(vers_ref) == str(versiculo):
+                            comentario_principal = comentario_versiculo.get('comentario', '')
+                            referencia_principal = comentario_versiculo.get('referencia', '')
+                            # PROCESAR REFERENCIAS DEL COMENTARIO PRINCIPAL
+                            if referencia_principal:
+                                referencias_separadas_principal = procesar_referencias(referencia_principal)
+                            else:
+                                referencias_separadas_principal = []
+                            comentario_encontrado_principal = True
+                            print(f"  ✅ Encontrado comentario principal para versículo {vers_ref}")
+                            break
+        
+        # 2. BUSCAR EN COMENTARIOS CBA (data/cba.json)
+        comentario_cba = ""
+        referencias_cba = []
+        comentario_encontrado_cba = False
+        
+        if libro_normalizado in COMENTARIOS_CBA:
+            capitulos_cba = COMENTARIOS_CBA[libro_normalizado]
+            if str(capitulo) in capitulos_cba:
+                versiculos_cba = capitulos_cba[str(capitulo)]
+                
+                for versiculo_ref, datos_versiculo in versiculos_cba.items():
+                    if isinstance(datos_versiculo, dict):
+                        # Manejar rangos de versículos en CBA
+                        if '-' in versiculo_ref:
+                            try:
+                                inicio, fin = map(int, versiculo_ref.split('-'))
+                                if inicio <= int(versiculo) <= fin:
+                                    comentarios_lista = datos_versiculo.get('comentarios', [])
+                                    if comentarios_lista:
+                                        comentario_cba = " ".join(str(c) for c in comentarios_lista)
+                                        comentario_encontrado_cba = True
+                                    referencias = datos_versiculo.get('referencias_cruzadas', [])
+                                    for ref in referencias:
+                                        if ref and ref.strip():
+                                            referencias_cba.extend(procesar_referencias(str(ref)))
+                                    print(f"  ✅ Encontrado comentario CBA para rango {versiculo_ref}")
+                                    break
+                            except ValueError:
+                                continue
+                        # Coincidencia exacta en CBA
+                        elif str(versiculo_ref) == str(versiculo):
+                            comentarios_lista = datos_versiculo.get('comentarios', [])
+                            if comentarios_lista:
+                                comentario_cba = " ".join(str(c) for c in comentarios_lista)
+                                comentario_encontrado_cba = True
+                            referencias = datos_versiculo.get('referencias_cruzadas', [])
+                            for ref in referencias:
+                                if ref and ref.strip():
+                                    referencias_cba.extend(procesar_referencias(str(ref)))
+                            print(f"  ✅ Encontrado comentario CBA para versículo {versiculo_ref}")
+                            break
+        
+        # 3. FUSIONAR COMENTARIOS DE FORMA ELEGANTE
+        comentario_final = ""
+        referencias_finales = referencias_separadas_principal.copy()
+        
+        if comentario_encontrado_principal and comentario_encontrado_cba:
+            # AMBOS EXISTEN: Fusionar con formato bonito
+            comentario_final = f"{comentario_principal}\n\n[CBA]\n{comentario_cba}"
+            print(f"  🔄 Fusionando comentarios: Principal + CBA")
+            
+        elif comentario_encontrado_principal and not comentario_encontrado_cba:
+            # SOLO PRINCIPAL
+            comentario_final = comentario_principal
+            print(f"  📚 Usando solo comentario principal")
+            
+        elif not comentario_encontrado_principal and comentario_encontrado_cba:
+            # SOLO CBA: Usar CBA como principal
+            comentario_final = f"[CBA]\n{comentario_cba}"
+            print(f"  📖 Usando solo comentario CBA")
+            
+        else:
+            # NINGUNO
+            comentario_final = 'No hay comentario disponible para este versículo.'
+            print(f"  ❌ No hay comentarios disponibles")
+        
+        # Combinar referencias
+        referencias_finales.extend(referencias_cba)
+        referencias_finales = list(set(referencias_finales))  # Eliminar duplicados
+        
+        # Combinar referencia principal
+        referencia_final = referencia_principal
+        if referencias_cba:
+            if referencia_final:
+                referencia_final += "; " + "; ".join(referencias_cba)
+            else:
+                referencia_final = "; ".join(referencias_cba)
+        
+        print(f"  📋 Referencias finales: {referencias_finales}")
+        
+        return jsonify({
+            'comentario': comentario_final,
+            'referencia': referencia_final,
+            'referencias_separadas': referencias_finales,
+            'fuentes': {
+                'principal': comentario_encontrado_principal,
+                'cba': comentario_encontrado_cba
+            }
+        })
+            
     except Exception as e:
         print(f"Error obteniendo comentario para {libro} {capitulo}:{versiculo}: {e}")
+        import traceback
+        print(f"Traceback: {traceback.format_exc()}")
     
     return jsonify({
         'comentario': 'No hay comentario disponible para este versículo.', 
         'referencia': '',
-        'referencias_separadas': []
+        'referencias_separadas': [],
+        'fuentes': {'principal': False, 'cba': False}
     })
 
 @app.route('/cba_append')
@@ -529,6 +633,8 @@ def buscar():
         return jsonify(resultados)
     
     try:
+        print(f"🔍 Buscando término: '{termino}'")
+        
         for libro, capitulos in BIBLIA.items():
             if not es_diccionario_valido(capitulos):
                 continue
@@ -538,18 +644,24 @@ def buscar():
                     continue
                     
                 for num_versiculo, texto in versiculos.items():
-                    if termino in texto.lower():
+                    texto_versiculo = str(texto).lower() if texto else ""
+                    if termino in texto_versiculo:
                         resultados.append({
                             'libro': libro,
                             'capitulo': capitulo,
                             'versiculo': num_versiculo,
                             'texto': texto
                         })
+                        print(f"  ✅ Encontrado en {libro} {capitulo}:{num_versiculo}")
         
-        resultados = resultados[:100]
+        # Limitar resultados para no sobrecargar
+        resultados = resultados[:200]
+        print(f"📊 Búsqueda completada: {len(resultados)} resultados encontrados")
         
     except Exception as e:
-        print(f"Error en búsqueda: {e}")
+        print(f"❌ Error en búsqueda: {e}")
+        import traceback
+        print(f"Traceback: {traceback.format_exc()}")
     
     return jsonify(resultados)
 
@@ -557,7 +669,6 @@ def buscar():
 def obtener_referencia(referencia):
     try:
         referencia = referencia.strip()
-        print(f"Buscando referencia: '{referencia}'")
         
         patron = r'(.+?)\s+(\d+):(\d+(?:-\d+)?)'
         match = re.search(patron, referencia)
@@ -568,12 +679,10 @@ def obtener_referencia(referencia):
             versiculo_rango = match.group(3)
             
             libro_normalizado = normalizar_nombre_libro(libro)
-            print(f"  Referencia parseada: '{libro}' -> '{libro_normalizado}' {capitulo}:{versiculo_rango}")
             
             # Buscar libro exacto
             if libro in BIBLIA and es_diccionario_valido(BIBLIA[libro]):
                 libro_real = libro
-                print(f"  Libro encontrado exacto: '{libro_real}'")
             else:
                 # Buscar por nombre normalizado
                 libro_encontrado = None
@@ -581,13 +690,11 @@ def obtener_referencia(referencia):
                     if normalizar_nombre_libro(libro_biblia) == libro_normalizado:
                         if es_diccionario_valido(BIBLIA[libro_biblia]):
                             libro_encontrado = libro_biblia
-                            print(f"  Libro encontrado por normalización: '{libro_biblia}'")
                             break
                 
                 if libro_encontrado:
                     libro_real = libro_encontrado
                 else:
-                    print(f"  Libro no encontrado: '{libro}' -> '{libro_normalizado}'")
                     return jsonify({'error': f'Libro "{libro}" no encontrado'})
             
             # Verificar si el capítulo existe
@@ -636,7 +743,7 @@ def obtener_referencia(referencia):
 @app.route('/favicon.ico')
 def favicon():
     return send_from_directory(
-        directory=os.path.join(app.root_path, 'data'),  # carpeta data dentro del proyecto
+        directory=os.path.join(app.root_path, 'data'),
         path='favicon.ico',
         mimetype='image/vnd.microsoft.icon'
     )
