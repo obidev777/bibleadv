@@ -1,0 +1,560 @@
+{
+  "libro": "Jueces",
+  "comentarios": [
+    {
+      "capitulo": 1,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Josué 14:13-15; 15:13-14",
+          "comentario": "Judá toma la iniciativa en la conquista después de la muerte de Josué, mostrando continuidad en el liderazgo."
+        },
+        {
+          "versiculo": "8-15",
+          "referencia": "Josué 15:15-19; 1 Crónicas 4:9-10",
+          "comentario": "Caleb y Otoniel continúan la conquista, demostrando que la fe y el valor caracterizan a esta generación."
+        },
+        {
+          "versiculo": "16-21",
+          "referencia": "Números 10:29-32; 1 Samuel 15:6",
+          "comentario": "Los ceneos se unen a Judá, mientras que Benjamín no expulsa a los jebuseos de Jerusalén."
+        },
+        {
+          "versiculo": "22-36",
+          "referencia": "Josué 17:12-13; 2 Reyes 17:24-41",
+          "comentario": "Las tribus del norte no expulsan completamente a los cananeos, sembrando semillas de futura apostasía."
+        }
+      ]
+    },
+    {
+      "capitulo": 2,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Josué 23:12-13; 24:19-20",
+          "comentario": "El ángel de Jehová reprende a Israel en Boquim por hacer pactos con los cananeos."
+        },
+        {
+          "versiculo": "6-10",
+          "referencia": "Josué 24:29-31; Hechos 13:20",
+          "comentario": "La generación que conoció a Josué sirve a Dios, pero la siguiente se aparta del Señor."
+        },
+        {
+          "versiculo": "11-15",
+          "referencia": "Deuteronomio 31:16-18; Salmo 106:34-39",
+          "comentario": "Israel sirve a los baales y abandona a Jehová, provocando la ira divina y la opresión enemiga."
+        },
+        {
+          "versiculo": "16-19",
+          "referencia": "Nehemías 9:27-28; Salmo 106:43-46",
+          "comentario": "Dios levanta jueces que los libran, pero Israel reincide en peores idolatrías después de cada liberación."
+        },
+        {
+          "versiculo": "20-23",
+          "referencia": "Josué 23:13; Jueces 3:1-4",
+          "comentario": "Dios deja naciones para probar a Israel y enseñarles la guerra a las nuevas generaciones."
+        }
+      ]
+    },
+    {
+      "capitulo": 3,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Deuteronomio 7:1-4; Esdras 9:1-2",
+          "comentario": "Las naciones dejadas sirven como prueba para Israel, que se mezcla con ellas en matrimonio."
+        },
+        {
+          "versiculo": "7-11",
+          "referencia": "Jueces 2:11-14; Hechos 13:19-20",
+          "comentario": "Otoniel, sobrino de Caleb, libera a Israel de Cusan-risataim, dando 40 años de paz."
+        },
+        {
+          "versiculo": "12-30",
+          "referencia": "Jueces 1:13; 1 Samuel 17:50",
+          "comentario": "Aod, hombre zurdo, mata a Eglón rey de Moab con una espada de dos filos."
+        },
+        {
+          "versiculo": "31",
+          "referencia": "Jueces 5:6; 10:1",
+          "comentario": "Samgar mata 600 filisteos con una aguijada de bueyes, liberando a Israel."
+        }
+      ]
+    },
+    {
+      "capitulo": 4,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Jueces 2:11-14; 1 Samuel 12:9",
+          "comentario": "Israel vuelve a hacer lo malo y es oprimido por Jabín, rey de Canaán, por 20 años."
+        },
+        {
+          "versiculo": "4-9",
+          "referencia": "Éxodo 15:20; 2 Reyes 22:14-20",
+          "comentario": "Débora, profetisa y juez, llama a Barac para enfrentar a Sísara, general de Jabín."
+        },
+        {
+          "versiculo": "10-16",
+          "referencia": "Salmo 83:9-10; Hebreos 11:32-34",
+          "comentario": "Barac con 10,000 hombres derrota al ejército cananeo en el monte Tabor."
+        },
+        {
+          "versiculo": "17-24",
+          "referencia": "Jueces 5:24-27; 1 Samuel 15:6",
+          "comentario": "Jael, mujer cenea, mata a Sísara con una estaca de la tienda, cumpliendo la profecía."
+        }
+      ]
+    },
+    {
+      "capitulo": 5,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Éxodo 15:1-21; Salmo 68:7-8",
+          "comentario": "El cántico de Débora y Barac celebra la victoria divina desde Seir hasta el monte Sinaí."
+        },
+        {
+          "versiculo": "6-11",
+          "referencia": "Jueces 4:4-5; 1 Samuel 13:19-22",
+          "comentario": "Descripción de la opresión antes de la liberación y el llamado a contar las justicias de Jehová."
+        },
+        {
+          "versiculo": "12-18",
+          "referencia": "Jueces 4:6-10; 1 Crónicas 12:32",
+          "comentario": "Elogio a las tribus que participaron en la batalla y crítica a las que se mantuvieron al margen."
+        },
+        {
+          "versiculo": "19-23",
+          "referencia": "Josué 10:11; 2 Samuel 18:6-8",
+          "comentario": "La batalla en Meguido con la intervención celestial y la maldición sobre Meroz."
+        },
+        {
+          "versiculo": "24-31",
+          "referencia": "Jueces 4:17-22; Proverbios 31:10-31",
+          "comentario": "Bendición para Jael y contraste entre la madre de Sísara y las madres de Israel."
+        }
+      ]
+    },
+    {
+      "capitulo": 6,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Deuteronomio 28:33; Jueces 2:14-15",
+          "comentario": "Israel es oprimido por Madián por siete años, escondiéndose en cuevas y montañas."
+        },
+        {
+          "versiculo": "7-10",
+          "referencia": "2 Crónicas 15:2-4; 24:20",
+          "comentario": "Dios envía un profeta anónimo que recuerda a Israel sus obras pasadas y su infidelidad."
+        },
+        {
+          "versiculo": "11-16",
+          "referencia": "Josué 1:5-9; Jeremías 1:6-8",
+          "comentario": "El ángel de Jehová llama a Gedeón, quien se considera el más pequeño en la familia más pobre."
+        },
+        {
+          "versiculo": "17-24",
+          "referencia": "Jueces 13:15-20; 1 Crónicas 21:26",
+          "comentario": "Gedeón pide señal y ofrece sacrificio, reconociendo que ha visto al ángel de Jehová cara a cara."
+        },
+        {
+          "versiculo": "25-32",
+          "referencia": "Deuteronomio 7:5; 1 Reyes 18:21",
+          "comentario": "Gedeón derriba el altar de Baal y corta la imagen de Asera, ganando el nombre de Jerobaal."
+        },
+        {
+          "versiculo": "33-40",
+          "referencia": "1 Samuel 14:6-10; Lucas 22:42",
+          "comentario": "Gedeón pide la señal del vellón para confirmar el llamado de Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 7,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Deuteronomio 20:1-8; 1 Samuel 14:6",
+          "comentario": "Dios reduce el ejército de 32,000 a 300 hombres para que Israel no se gloríe a sí mismo."
+        },
+        {
+          "versiculo": "9-15",
+          "referencia": "Jueces 6:25-27; 1 Samuel 14:8-12",
+          "comentario": "Dios anima a Gedeón enviándolo al campamento madianita donde oye un sueño de derrota."
+        },
+        {
+          "versiculo": "16-22",
+          "referencia": "2 Crónicas 20:21-22; Salmo 83:9-12",
+          "comentario": "Los 300 hombres con trompetas y cántaros vacíos causan confusión y derrota en el campamento."
+        },
+        {
+          "versiculo": "23-25",
+          "referencia": "Jueces 8:4-21; Salmo 83:11",
+          "comentario": "Las tribus de Israel persiguen a los madianitas y capturan a Oreb y Zeeb, sus príncipes."
+        }
+      ]
+    },
+    {
+      "capitulo": 8,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Proverbios 15:1; 25:15",
+          "comentario": "Los de Efraín se quejan con Gedeón, pero él responde con sabiduría apaciguando su enojo."
+        },
+        {
+          "versiculo": "4-21",
+          "referencia": "1 Samuel 25:10-13; 1 Reyes 12:25",
+          "comentario": "Gedeón persigue a los reyes madianitas Zebah y Zalmunna, castigando a Sucot y Penuel."
+        },
+        {
+          "versiculo": "22-28",
+          "referencia": "1 Samuel 8:7; 12:12",
+          "comentario": "Israel ofrece realeza a Gedeón, quien rechaza diciendo que Jehová reinará sobre ellos."
+        },
+        {
+          "versiculo": "29-35",
+          "referencia": "Jueces 6:32; 9:1-57",
+          "comentario": "Gedeón hace efod que se convierte en tropiezo, y después de su muerte Israel vuelve a idolatría."
+        }
+      ]
+    },
+    {
+      "capitulo": 9,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Jueces 8:31; 2 Reyes 11:1-2",
+          "comentario": "Abimelec, hijo de Gedeón, conspira y mata a sus 70 hermanos, excepto Jotam que escapa."
+        },
+        {
+          "versiculo": "7-21",
+          "referencia": "2 Samuel 12:1-7; 2 Crónicas 25:4",
+          "comentario": "Jotam pronuncia la parábola de los árboles desde el monte Gerizim, profetizando contra Abimelec."
+        },
+        {
+          "versiculo": "22-33",
+          "referencia": "Jueces 8:33-35; 2 Samuel 15:31",
+          "comentario": "Dios envía espíritu malo entre Abimelec y los de Siquem, que conspiran contra él."
+        },
+        {
+          "versiculo": "34-49",
+          "referencia": "2 Samuel 11:21; 2 Reyes 3:25",
+          "comentario": "Abimelec ataca Siquem y prende fuego a la torre donde se refugiaban 1000 personas."
+        },
+        {
+          "versiculo": "50-57",
+          "referencia": "2 Samuel 11:21; Eclesiastés 10:8-9",
+          "comentario": "Abimelec muere en Tebes cuando una mujer le arroja una piedra de molino sobre su cabeza."
+        }
+      ]
+    },
+    {
+      "capitulo": 10,
+      "versiculos": [
+        {
+          "versiculo": "1-2",
+          "referencia": "Jueces 2:16; 12:8-15",
+          "comentario": "Tola juzga a Israel 23 años después de Abimelec, de la tribu de Isacar."
+        },
+        {
+          "versiculo": "3-5",
+          "referencia": "Jueces 12:8-15; 1 Crónicas 7:1-5",
+          "comentario": "Jair juzga 22 años, teniendo 30 hijos que cabalgaban en 30 asnos y tenían 30 ciudades."
+        },
+        {
+          "versiculo": "6-9",
+          "referencia": "Deuteronomio 31:16-18; Jueces 2:11-13",
+          "comentario": "Israel sirve a dioses de Siria, Sidón, Moab, Amón y Filistea, siendo oprimido 18 años."
+        },
+        {
+          "versiculo": "10-16",
+          "referencia": "1 Samuel 7:3-6; 12:10",
+          "comentario": "Israel clama a Dios, quien primero reprende su infidelidad pero luego se duele por su aflicción."
+        },
+        {
+          "versiculo": "17-18",
+          "referencia": "Jueces 11:4-11; 1 Samuel 11:1-11",
+          "comentario": "Los amonitas acampan contra Israel en Galaad, buscando líder para la batalla."
+        }
+      ]
+    },
+    {
+      "capitulo": 11,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Génesis 21:9-10; 1 Samuel 22:1-2",
+          "comentario": "Jefté, hijo de Galaad y una mujer prostituta, es echado por sus medio hermanos."
+        },
+        {
+          "versiculo": "4-11",
+          "referencia": "Jueces 10:17-18; 1 Samuel 11:1-11",
+          "comentario": "Los ancianos de Galaad piden a Jefté que sea su caudillo contra los amonitas."
+        },
+        {
+          "versiculo": "12-28",
+          "referencia": "Números 21:21-31; Deuteronomio 2:9-19",
+          "comentario": "Jefté negocia con el rey amonita, exponiendo la historia de la posesión israelita de la tierra."
+        },
+        {
+          "versiculo": "29-33",
+          "referencia": "Números 21:21-31; 1 Samuel 11:6",
+          "comentario": "El Espíritu de Jehová viene sobre Jefté, quien hace voto a Dios antes de la batalla."
+        },
+        {
+          "versiculo": "34-40",
+          "referencia": "Génesis 22:1-2; 1 Samuel 1:11",
+          "comentario": "Jefté cumple su voto con su hija única, estableciendo costumbre de lamentación anual."
+        }
+      ]
+    },
+    {
+      "capitulo": 12,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Jueces 8:1-3; 2 Samuel 19:41-43",
+          "comentario": "Efraín se queja con Jefté, resultando en batalla donde mueren 42,000 efrainitas."
+        },
+        {
+          "versiculo": "8-10",
+          "referencia": "Jueces 10:1-2; 12:11-12",
+          "comentario": "Ibzan de Belén juzga 7 años, teniendo 30 hijos y 30 hijas que casó fuera de su clan."
+        },
+        {
+          "versiculo": "11-12",
+          "referencia": "Jueces 3:31; 10:1-2",
+          "comentario": "Elón de Zabulón juzga 10 años y es enterrado en Ajalón."
+        },
+        {
+          "versiculo": "13-15",
+          "referencia": "Jueces 10:1-5; 12:8-10",
+          "comentario": "Abdón de Efraín juzga 8 años, teniendo 40 hijos y 30 nietos que cabalgaban en 70 asnos."
+        }
+      ]
+    },
+    {
+      "capitulo": 13,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Jueces 2:11-14; 10:6-8",
+          "comentario": "Israel vuelve a hacer lo malo y es entregado en manos de los filisteos por 40 años."
+        },
+        {
+          "versiculo": "8-14",
+          "referencia": "Lucas 1:13-17; Hebreos 11:32",
+          "comentario": "Manoa pide instrucciones al ángel para criar al niño nazareo que liberará a Israel."
+        },
+        {
+          "versiculo": "15-23",
+          "referencia": "Jueces 6:19-22; 1 Crónicas 21:16",
+          "comentario": "Manoa ofrece sacrificio y reconoce que han visto a Dios al ver al ángel ascender en la llama."
+        },
+        {
+          "versiculo": "24-25",
+          "referencia": "1 Samuel 2:21; 3:19",
+          "comentario": "Sansón nace y crece bendecido por Dios, comenzando a ser movido por el Espíritu en Mahane-dan."
+        }
+      ]
+    },
+    {
+      "capitulo": 14,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Deuteronomio 7:3-4; Nehemías 13:23-27",
+          "comentario": "Sansón desea una mujer filistea, buscando ocasión contra los opresores de Israel."
+        },
+        {
+          "versiculo": "5-9",
+          "referencia": "Números 6:6; 1 Samuel 17:34-36",
+          "comentario": "Sansón mata un león con sus manos y después come miel de su cadáver, quebrantando su voto."
+        },
+        {
+          "versiculo": "10-14",
+          "referencia": "Génesis 29:27; 1 Reyes 10:1",
+          "comentario": "En la boda, Sansón propone un enigma sobre el león y la miel, apostando vestiduras."
+        },
+        {
+          "versiculo": "15-20",
+          "referencia": "Jueces 15:1-2; 16:5",
+          "comentario": "La mujer de Sansón descifra el enigma bajo presión, llevando a Sansón a matar 30 filisteos."
+        }
+      ]
+    },
+    {
+      "capitulo": 15,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Jueces 14:20; Proverbios 6:34-35",
+          "comentario": "Sansón descubre que su esposa fue dada a otro, y quema los sembrados filisteos con zorras."
+        },
+        {
+          "versiculo": "4-8",
+          "referencia": "Jueces 14:19; 1 Samuel 11:6-7",
+          "comentario": "Los filisteos queman a la mujer y su padre, y Sansón los mata hiriéndolos muchos."
+        },
+        {
+          "versiculo": "9-13",
+          "referencia": "Jueces 13:1; 1 Samuel 17:1-3",
+          "comentario": "Los filisteos acampan contra Judá, que entrega a Sansón atado con cuerdas nuevas."
+        },
+        {
+          "versiculo": "14-17",
+          "referencia": "Jueces 3:10; 14:6",
+          "comentario": "El Espíritu de Jehová viene sobre Sansón, quien mata 1000 filisteos con una quijada de asno."
+        },
+        {
+          "versiculo": "18-20",
+          "referencia": "Génesis 45:27; Isaías 40:29-31",
+          "comentario": "Dios provee agua en Lehi para Sansón, quien juzga a Israel 20 años."
+        }
+      ]
+    },
+    {
+      "capitulo": 16,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Josué 2:15; 1 Samuel 19:12",
+          "comentario": "Sansón lleva las puertas de Gaza sobre sus hombros hasta Hebrón, mostrando su fuerza."
+        },
+        {
+          "versiculo": "4-14",
+          "referencia": "Proverbios 5:3-5; 7:21-23",
+          "comentario": "Dalila intenta tres veces descubrir el secreto de la fuerza de Sansón con sogas nuevas."
+        },
+        {
+          "versiculo": "15-17",
+          "referencia": "Jueces 14:16-17; Proverbios 7:26-27",
+          "comentario": "Dalila presiona a Sansón hasta que revela que su fuerza está en su nazareato."
+        },
+        {
+          "versiculo": "18-22",
+          "referencia": "1 Samuel 28:7-8; 2 Reyes 24:13",
+          "comentario": "Dalila hace rapar a Sansón, quien pierde su fuerza y es capturado por los filisteos."
+        },
+        {
+          "versiculo": "23-31",
+          "referencia": "1 Samuel 5:1-5; Hebreos 11:32-34",
+          "comentario": "Sansón pide fuerza final a Dios y derriba el templo de Dagón, matando más al morir que en vida."
+        }
+      ]
+    },
+    {
+      "capitulo": 17,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Deuteronomio 12:8-14; Jueces 18:1",
+          "comentario": "Micaía hace imágenes y establece sacerdocio privado, mostrando anarquía religiosa en Israel."
+        },
+        {
+          "versiculo": "7-13",
+          "referencia": "Jueces 18:30; 19:1",
+          "comentario": "Un levita de Belén sirve como sacerdote personal por salario, completando la corrupción religiosa."
+        }
+      ]
+    },
+    {
+      "capitulo": 18,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Josué 19:40-48; Jueces 1:34-36",
+          "comentario": "Dan busca heredad y consulta al sacerdote de Micaía sobre su viaje de reconocimiento."
+        },
+        {
+          "versiculo": "7-13",
+          "referencia": "Josué 19:47; Jueces 1:34",
+          "comentario": "Los de Dan encuentran Lais indefensa y deciden conquistarla para establecerse."
+        },
+        {
+          "versiculo": "14-26",
+          "referencia": "Jueces 17:1-6; Oseas 4:6",
+          "comentario": "Los danitas roban las imágenes y convencen al levita para ser sacerdote de su tribu."
+        },
+        {
+          "versiculo": "27-31",
+          "referencia": "Josué 19:47; 1 Reyes 12:28-30",
+          "comentario": "Dan conquista Lais y establece idolatría que continúa hasta el cautiverio de la tierra."
+        }
+      ]
+    },
+    {
+      "capitulo": 19,
+      "versiculos": [
+        {
+          "versiculo": "1-10",
+          "referencia": "Jueces 17:7-13; 18:19-20",
+          "comentario": "Un levita y su concubina viajan de Belén a Efraín, siendo retenidos por su suegro."
+        },
+        {
+          "versiculo": "11-15",
+          "referencia": "Génesis 19:1-3; Josué 18:25-28",
+          "comentario": "Rechazados en Jebús, llegan a Gabaa de Benjamín donde nadie les ofrece hospedaje."
+        },
+        {
+          "versiculo": "16-21",
+          "referencia": "Génesis 19:2-3; Job 31:32",
+          "comentario": "Un hombre viejo de Efraín les ofrece hospedaje, mostrando hospitalidad en medio de la maldad."
+        },
+        {
+          "versiculo": "22-30",
+          "referencia": "Génesis 19:4-9; 1 Samuel 11:7",
+          "comentario": "Hombres de Gabaa abusan de la concubina hasta la muerte, provocando indignación nacional."
+        }
+      ]
+    },
+    {
+      "capitulo": 20,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Josué 18:1; 1 Samuel 7:5-6",
+          "comentario": "Todas las tribus se reúnen en Mizpa para oír el reporte del levita sobre el crimen en Gabaa."
+        },
+        {
+          "versiculo": "8-17",
+          "referencia": "Jueces 1:1-2; 1 Samuel 11:7",
+          "comentario": "Israel decide castigar a Gabaa y Benjamín se prepara para la guerra con 26,000 hombres."
+        },
+        {
+          "versiculo": "18-28",
+          "referencia": "Jueces 1:1-2; 1 Samuel 14:18-19",
+          "comentario": "Israel consulta a Dios y sufre derrotas iniciales antes de obtener victoria."
+        },
+        {
+          "versiculo": "29-48",
+          "referencia": "Josué 8:3-23; 2 Samuel 2:28",
+          "comentario": "Israel usa estrategia de emboscada y derrota a Benjamín, dejando solo 600 hombres."
+        }
+      ]
+    },
+    {
+      "capitulo": 21,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Jueces 20:46-48; 1 Samuel 11:1-11",
+          "comentario": "Israel lamenta la posible extinción de Benjamín después de haber jurado no darles mujeres."
+        },
+        {
+          "versiculo": "8-15",
+          "referencia": "Jueces 20:47; 1 Samuel 11:1",
+          "comentario": "Matan a los de Jabes-galaad por no asistir a la asamblea, dando sus vírgenes a Benjamín."
+        },
+        {
+          "versiculo": "16-25",
+          "referencia": "Jueces 17:6; 18:1",
+          "comentario": "Los benjaminitas raptan mujeres en Silo durante fiesta, mostrando anarquía final del período."
+        }
+      ]
+    }
+  ]
+}

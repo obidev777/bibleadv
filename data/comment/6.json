@@ -1,0 +1,515 @@
+{
+  "libro": "Josué",
+  "comentarios": [
+    {
+      "capitulo": 1,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Deuteronomio 31:7-8; 34:9",
+          "comentario": "Dios confirma a Josué como sucesor de Moisés, prometiéndole su presencia constante y éxito si se mantiene fiel a la ley."
+        },
+        {
+          "versiculo": "10-11",
+          "referencia": "Deuteronomio 20:1-4; Josué 3:2",
+          "comentario": "Josué demuestra liderazgo inmediato ordenando preparativos para cruzar el Jordán en tres días."
+        },
+        {
+          "versiculo": "12-15",
+          "referencia": "Números 32:1-32; Deuteronomio 3:18-20",
+          "comentario": "Las tribus del oriente reafirman su compromiso de ayudar a conquistar Canaán antes de establecerse."
+        },
+        {
+          "versiculo": "16-18",
+          "referencia": "Deuteronomio 1:16-18; 1 Samuel 15:24",
+          "comentario": "El pueblo se compromete a obedecer a Josué como obedecieron a Moisés, reconociendo el liderazgo divino."
+        }
+      ]
+    },
+    {
+      "capitulo": 2,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Hebreos 11:31; Santiago 2:25",
+          "comentario": "Rahab protege a los espías, demostrando fe en el Dios de Israel a pesar de su pasado como ramera."
+        },
+        {
+          "versiculo": "8-14",
+          "referencia": "Josué 6:17; Mateo 1:5",
+          "comentario": "La confesión de fe de Rahab reconoce la soberanía de Jehová y busca misericordia para su familia."
+        },
+        {
+          "versiculo": "15-21",
+          "referencia": "Josué 6:22-25; Hechos 16:31-34",
+          "comentario": "El pacto con Rahab se sella con la señal del cordón de grana, prefigurando la sangre de Cristo."
+        },
+        {
+          "versiculo": "22-24",
+          "referencia": "Números 13:27-28; Deuteronomio 1:28",
+          "comentario": "Los espías regresan con informe positivo, contrastando con el de los doce espías en Cades-barnea."
+        }
+      ]
+    },
+    {
+      "capitulo": 3,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Números 4:15; 1 Crónicas 15:2",
+          "comentario": "El arca va delante del pueblo, simbolizando la presencia de Dios guiando el camino hacia lo desconocido."
+        },
+        {
+          "versiculo": "7-13",
+          "referencia": "Éxodo 14:21-22; 2 Reyes 2:8",
+          "comentario": "Dios promete exaltar a Josué ante Israel mediante el milagro de detener las aguas del Jordán."
+        },
+        {
+          "versiculo": "14-17",
+          "referencia": "Éxodo 14:29; Salmo 114:3",
+          "comentario": "Las aguas del Jordán se detienen milagrosamente, confirmando el llamado divino de Josué."
+        }
+      ]
+    },
+    {
+      "capitulo": 4,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Éxodo 12:26-27; 13:14-15",
+          "comentario": "Las doce piedras del Jordán sirven como memorial perpetuo del poder de Dios para las generaciones futuras."
+        },
+        {
+          "versiculo": "10-14",
+          "referencia": "Deuteronomio 31:7-8; Josué 1:16-18",
+          "comentario": "El pueblo cruza en orden y Dios exalta a Josué ante todo Israel como había hecho con Moisés."
+        },
+        {
+          "versiculo": "15-24",
+          "referencia": "Josué 3:13; 1 Pedro 2:5",
+          "comentario": "El propósito del memorial: que todos los pueblos conozcan la mano poderosa de Jehová."
+        }
+      ]
+    },
+    {
+      "capitulo": 5,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Génesis 17:9-14; Éxodo 4:24-26",
+          "comentario": "La circuncisión en Gilgal renueva el pacto y quita el oprobio de Egipto antes de la conquista."
+        },
+        {
+          "versiculo": "10-12",
+          "referencia": "Éxodo 16:35; Josué 4:19",
+          "comentario": "La primera Pascua en Canaán marca el fin del maná y el comienzo del fruto de la tierra prometida."
+        },
+        {
+          "versiculo": "13-15",
+          "referencia": "Éxodo 3:2-6; Hechos 7:30-33",
+          "comentario": "El Príncipe del ejército de Jehová aparece a Josué, mostrando que la batalla es del Señor."
+        }
+      ]
+    },
+    {
+      "capitulo": 6,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Hebreos 11:30; 2 Corintios 10:4",
+          "comentario": "Las instrucciones divinas para tomar Jericó parecen ilógicas, probando la obediencia de Israel."
+        },
+        {
+          "versiculo": "8-14",
+          "referencia": "Números 10:1-10; Josué 4:13",
+          "comentario": "El pueblo obedece en silencio por seis días, demostrando fe en el plan divino contra toda lógica humana."
+        },
+        {
+          "versiculo": "15-21",
+          "referencia": "Deuteronomio 7:1-2; 20:16-18",
+          "comentario": "El séptimo día las murallas caen por fe, y la ciudad es dedicada a Jehová como primicias de la conquista."
+        },
+        {
+          "versiculo": "22-25",
+          "referencia": "Josué 2:1-21; Mateo 1:5",
+          "comentario": "Rahab y su familia son salvadas, cumpliendo el juramento y entrando en el linaje del Mesías."
+        },
+        {
+          "versiculo": "26-27",
+          "referencia": "1 Reyes 16:34; 1 Samuel 2:30",
+          "comentario": "La maldición sobre quien reedifique Jericó se cumple siglos después en tiempos de Acab."
+        }
+      ]
+    },
+    {
+      "capitulo": 7,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Levítico 26:17; Deuteronomio 28:25",
+          "comentario": "El pecado de Acán afecta a toda la nación, causando derrota en Hai y quebrantando el ánimo del pueblo."
+        },
+        {
+          "versiculo": "6-9",
+          "referencia": "Números 14:1-5; Esdras 9:3-15",
+          "comentario": "Josué intercede como Moisés, preocupado por el honor del nombre de Dios entre las naciones."
+        },
+        {
+          "versiculo": "10-15",
+          "referencia": "Levítico 26:40-42; Proverbios 28:13",
+          "comentario": "Dios revela la causa de la derrota y el procedimiento para purgar el mal de Israel."
+        },
+        {
+          "versiculo": "16-26",
+          "referencia": "Hechos 5:1-11; 1 Corintios 5:1-13",
+          "comentario": "Acán confiesa su pecado, y su ejecución purga la culpa, enseñando la seriedad de la desobediencia."
+        }
+      ]
+    },
+    {
+      "capitulo": 8,
+      "versiculos": [
+        {
+          "versiculo": "1-2",
+          "referencia": "Deuteronomio 20:14; Josué 6:17-19",
+          "comentario": "Dios anima a Josué y permite el botín de Hai, mostrando restauración después del arrepentimiento."
+        },
+        {
+          "versiculo": "3-29",
+          "referencia": "Jueces 20:29-41; 2 Samuel 5:23-24",
+          "comentario": "La estrategia divina para tomar Hai usa emboscadas y muestra la importancia de seguir las instrucciones de Dios."
+        },
+        {
+          "versiculo": "30-35",
+          "referencia": "Deuteronomio 27:2-8; 31:9-13",
+          "comentario": "Josué reedifica el altar en el monte Ebal y lee toda la ley, renovando el pacto en Canaán."
+        }
+      ]
+    },
+    {
+      "capitulo": 9,
+      "versiculos": [
+        {
+          "versiculo": "1-2",
+          "referencia": "Éxodo 23:32; Deuteronomio 7:1-2",
+          "comentario": "Los reyes cananeos se unen contra Israel, pero algunos buscan salvarse mediante engaño."
+        },
+        {
+          "versiculo": "3-15",
+          "referencia": "Números 27:21; Proverbios 3:5-6",
+          "comentario": "Los gabaonitas engañan a Israel, que no consulta a Dios y hace pacto con base en apariencias."
+        },
+        {
+          "versiculo": "16-27",
+          "referencia": "2 Samuel 21:1-6; Nehemías 3:7",
+          "comentario": "Aunque engañados, Israel honra su juramento, haciendo a los gabaonitas siervos del santuario."
+        }
+      ]
+    },
+    {
+      "capitulo": 10,
+      "versiculos": [
+        {
+          "versiculo": "1-15",
+          "referencia": "Habacuc 3:11; Isaías 28:21",
+          "comentario": "Dios lucha por Israel con granizo y deteniendo el sol, mostrando su poder sobre la naturaleza."
+        },
+        {
+          "versiculo": "16-27",
+          "referencia": "Deuteronomio 21:22-23; Josué 8:29",
+          "comentario": "La ejecución de cinco rees cananeos simboliza la victoria completa sobre las fuerzas del mal."
+        },
+        {
+          "versiculo": "28-43",
+          "referencia": "Deuteronomio 7:24; 9:3",
+          "comentario": "La campaña del sur conquista ciudades clave, mostrando el cumplimiento progresivo de la promesa."
+        }
+      ]
+    },
+    {
+      "capitulo": 11,
+      "versiculos": [
+        {
+          "versiculo": "1-15",
+          "referencia": "Deuteronomio 20:1; Salmo 135:10-12",
+          "comentario": "La coalición del norte es derrotada en Merom, cumpliendo la orden de destruir caballos y carros."
+        },
+        {
+          "versiculo": "16-23",
+          "referencia": "Números 13:29; Deuteronomio 7:1-5",
+          "comentario": "Resumen de la conquista: Josué toma toda la tierra como Dios mandó a Moisés, excepto los anaquim."
+        }
+      ]
+    },
+    {
+      "capitulo": 12,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Números 21:21-35; Deuteronomio 2:26-3:11",
+          "comentario": "Lista de rees derrotados al oriente del Jordán por Moisés, mostrando continuidad en la conquista."
+        },
+        {
+          "versiculo": "7-24",
+          "referencia": "Josué 10:40; 11:16-23",
+          "comentario": "Los treinta y un rees derrotados por Josué al occidente del Jordán testifican del poder divino."
+        }
+      ]
+    },
+    {
+      "capitulo": 13,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Jueces 2:20-23; 3:1-4",
+          "comentario": "Dios indica a Josué, ya viejo, las áreas por conquistar, mostrando que la obra divina continúa."
+        },
+        {
+          "versiculo": "8-33",
+          "referencia": "Números 32:1-42; Deuteronomio 3:12-17",
+          "comentario": "Repaso de la herencia de las tribus del oriente, confirmando la fidelidad de Dios a su palabra."
+        }
+      ]
+    },
+    {
+      "capitulo": 14,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Números 34:13-29; Josué 21:1-3",
+          "comentario": "La distribución por suerte ante Jehová en Silo asegura imparcialidad en el reparto de la tierra."
+        },
+        {
+          "versiculo": "6-15",
+          "referencia": "Números 13:30; 14:6-9",
+          "comentario": "Caleb, a los 85 años, reclama Hebrón por su fidelidad, recibiendo la heredad prometida."
+        }
+      ]
+    },
+    {
+      "capitulo": 15,
+      "versiculos": [
+        {
+          "versiculo": "1-12",
+          "referencia": "Números 34:3-5; Josué 10:36-39",
+          "comentario": "Los límites detallados de Judá muestran la precisión divina en el cumplimiento de las promesas."
+        },
+        {
+          "versiculo": "13-19",
+          "referencia": "Jueces 1:11-15; 1 Crónicas 2:18-19",
+          "comentario": "Caleb conquista Hebrón y ofrece a su hija Acsa como premio por tomar Quiriat-sefer."
+        },
+        {
+          "versiculo": "20-63",
+          "referencia": "Jueces 1:21; 2 Samuel 5:6-9",
+          "comentario": "La lista de ciudades de Judá incluye Jerusalén, que permaneció en manos jebuseas hasta David."
+        }
+      ]
+    },
+    {
+      "capitulo": 16,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Génesis 41:50-52; 48:1-20",
+          "comentario": "El territorio de Efraín y Manasés cumple la promesa a José de doble porción entre sus hermanos."
+        },
+        {
+          "versiculo": "5-10",
+          "referencia": "Jueces 1:29; 1 Reyes 9:16",
+          "comentario": "Efraín no expulsa a los cananeos de Gezer, sembrando problemas futuros de idolatría."
+        }
+      ]
+    },
+    {
+      "capitulo": 17,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Números 26:28-34; 27:1-11",
+          "comentario": "Las hijas de Zelofehad reciben heredad, cumpliendo el juicio divino dado a través de Moisés."
+        },
+        {
+          "versiculo": "7-13",
+          "referencia": "Jueces 1:27-28; 1 Reyes 9:20-21",
+          "comentario": "Manasés recibe territorio extenso pero no expulsa a los cananeos, optando por tributarios."
+        },
+        {
+          "versiculo": "14-18",
+          "referencia": "Josué 19:49-50; Jueces 1:19",
+          "comentario": "Josué reta a los hijos de José a limpiar el monte y enfrentar a los cananeos con la ayuda de Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 18,
+      "versiculos": [
+        {
+          "versiculo": "1-10",
+          "referencia": "Josué 14:1-2; 19:51",
+          "comentario": "El tabernáculo se establece en Silo, centro de adoración durante el período de los jueces."
+        },
+        {
+          "versiculo": "11-28",
+          "referencia": "Génesis 49:27; Jueces 1:21",
+          "comentario": "Benjamín recibe territorio pequeño pero estratégico, incluyendo Jerusalén y Jericó."
+        }
+      ]
+    },
+    {
+      "capitulo": 19,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Génesis 49:13; Jueces 1:31-32",
+          "comentario": "Zabulón recibe tierra fértil, cumpliendo la bendición de Jacob sobre el comercio marítimo."
+        },
+        {
+          "versiculo": "10-16",
+          "referencia": "Génesis 49:14-15; Jueces 5:15-16",
+          "comentario": "Isacar obtiene el valle de Jezreel, región agrícola rica pero expuesta a invasiones."
+        },
+        {
+          "versiculo": "17-23",
+          "referencia": "Génesis 49:20; Deuteronomio 33:24-25",
+          "comentario": "Aser recibe la costa mediterránea, tierra de olivos y puertos comerciales importantes."
+        },
+        {
+          "versiculo": "24-31",
+          "referencia": "Génesis 49:21; Jueces 1:31",
+          "comentario": "Neftalí obtiene Galilea, región montañosa que será escenario del ministerio de Cristo."
+        },
+        {
+          "versiculo": "32-39",
+          "referencia": "Génesis 49:16-17; Jueces 18:1-31",
+          "comentario": "Dan recibe territorio pequeño, lo que llevará a su migración al norte más tarde."
+        },
+        {
+          "versiculo": "40-48",
+          "referencia": "Jueces 18:27-31; 1 Reyes 12:28-30",
+          "comentario": "El territorio de Dan incluye zonas no conquistadas, sembrando semillas de futura apostasía."
+        },
+        {
+          "versiculo": "49-51",
+          "referencia": "Josué 14:6-15; 24:29-30",
+          "comentario": "Josué recibe Timnat-sera como heredad personal, demostando integridad al recibir al final."
+        }
+      ]
+    },
+    {
+      "capitulo": 20,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Éxodo 21:12-14; Números 35:9-34",
+          "comentario": "Las ciudades de refugio proveen justicia misericordiosa, reflejando el carácter compasivo de Dios."
+        },
+        {
+          "versiculo": "7-9",
+          "referencia": "Deuteronomio 4:41-43; 19:1-13",
+          "comentario": "Seis ciudades estratégicamente ubicadas aseguran acceso a protección para homicidas no intencionales."
+        }
+      ]
+    },
+    {
+      "capitulo": 21,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Números 35:1-8; 1 Crónicas 6:54-81",
+          "comentario": "Los levitas reciben ciudades dispersas por todo Israel para enseñar la ley al pueblo."
+        },
+        {
+          "versiculo": "9-42",
+          "referencia": "Josué 14:3-4; 1 Samuel 6:15",
+          "comentario": "Las cuarenta y ocho ciudades levíticas aseguran la presencia de ministros en cada tribu."
+        },
+        {
+          "versiculo": "43-45",
+          "referencia": "Génesis 12:7; 13:14-17",
+          "comentario": "Dios cumple todas sus promesas a Israel, dando descanso de sus enemigos alrededor."
+        }
+      ]
+    },
+    {
+      "capitulo": 22,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Números 32:1-32; Josué 1:12-18",
+          "comentario": "Las tribus del oriente son despedidas con bendición y botín, habiendo cumplido su compromiso."
+        },
+        {
+          "versiculo": "10-20",
+          "referencia": "Levítico 17:8-9; Deuteronomio 12:5-14",
+          "comentario": "El altar junto al Jordán causa preocupación por posible apostasía, mostrando celo por la pureza del culto."
+        },
+        {
+          "versiculo": "21-29",
+          "referencia": "Josué 24:15; 1 Corintios 8:13",
+          "comentario": "Las tribus explican que el altar es memorial, no para sacrificios, previniendo futuras divisiones."
+        },
+        {
+          "versiculo": "30-34",
+          "referencia": "Ezequiel 37:15-28; Efesios 4:3-6",
+          "comentario": "La explicación satisface a las tribus del occidente, preservando la unidad de Israel."
+        }
+      ]
+    },
+    {
+      "capitulo": 23,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Deuteronomio 11:22-25; Josué 21:44-45",
+          "comentario": "Josué, ya viejo, recuerda las victorias pasadas y promesas futuras de Dios."
+        },
+        {
+          "versiculo": "6-8",
+          "referencia": "Deuteronomio 5:32-33; 28:14",
+          "comentario": "Exhortación a guardar la ley de Moisés sin desviarse a derecha ni izquierda."
+        },
+        {
+          "versiculo": "9-13",
+          "referencia": "Éxodo 23:27-30; Deuteronomio 7:1-5",
+          "comentario": "Advertencia contra alianzas con cananeos y tolerancia que lleve a idolatría."
+        },
+        {
+          "versiculo": "14-16",
+          "referencia": "1 Reyes 8:56; Miqueas 6:4-5",
+          "comentario": "Testimonio final de la fidelidad de Dios y advertencia sobre consecuencias de la infidelidad."
+        }
+      ]
+    },
+    {
+      "capitulo": 24,
+      "versiculos": [
+        {
+          "versiculo": "1-13",
+          "referencia": "Génesis 11:27-12:3; Nehemías 9:7-25",
+          "comentario": "Josué repasa la historia de redención desde Abraham hasta la conquista de Canaán."
+        },
+        {
+          "versiculo": "14-15",
+          "referencia": "Éxodo 20:3; 1 Reyes 18:21",
+          "comentario": "El llamado decisivo: 'Escogeos hoy a quién sirváis', con el ejemplo personal de Josué."
+        },
+        {
+          "versiculo": "16-18",
+          "referencia": "Éxodo 19:8; 24:3",
+          "comentario": "El pueblo renueva su compromiso con Jehová, reconociendo sus obras poderosas."
+        },
+        {
+          "versiculo": "19-28",
+          "referencia": "Éxodo 23:21; Ezequiel 18:4",
+          "comentario": "Josué advierte sobre la santidad de Dios y establece testimonio en Siquem."
+        },
+        {
+          "versiculo": "29-33",
+          "referencia": "Jueces 2:6-9; Hechos 7:45",
+          "comentario": "Muerte y entierro de Josué, Eleazar y los huesos de José, cerrando una era de fidelidad."
+        }
+      ]
+    }
+  ]
+}
