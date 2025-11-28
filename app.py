@@ -334,7 +334,7 @@ def cargar_comentarios_cba():
         print("Cargando comentarios CBA para ampliación...")
         archivo_cba = 'data/cba.json'
         if os.path.exists(archivo_cba):
-            with open(archivo_cba, 'r', encoding='utf-8') as f:
+            with open(archivo_cba, 'r') as f:
                 cba_data = json.load(f)
             
             for libro, capitulos in cba_data.items():
@@ -749,4 +749,5 @@ def favicon():
     )
 
 if __name__ == '__main__':
+
     app.run(debug=True, host='0.0.0.0', port=5000)
