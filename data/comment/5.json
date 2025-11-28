@@ -1,0 +1,900 @@
+{
+  "libro": "Deuteronomio",
+  "comentarios": [
+    {
+      "capitulo": 1,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Números 21:21-35; 33:1-49",
+          "comentario": "Moisés comienza su discurso de despedida recordando los actos poderosos de Dios, estableciendo el contexto histórico de la renovación del pacto."
+        },
+        {
+          "versiculo": "6-8",
+          "referencia": "Génesis 15:18-21; Éxodo 3:8",
+          "comentario": "El mandato de avanzar y poseer la tierra muestra que las promesas de Dios requieren fe y acción por parte de su pueblo."
+        },
+        {
+          "versiculo": "9-18",
+          "referencia": "Éxodo 18:13-26; Números 11:14-17",
+          "comentario": "La organización de jueces y líderes demuestra el principio de delegación y gobierno sabio en la comunidad del pacto."
+        },
+        {
+          "versiculo": "19-33",
+          "referencia": "Números 13:1-33; 14:1-10",
+          "comentario": "El recuerdo del fracaso en Cades-barnea sirve como advertencia contra la incredulidad y el temor a los obstáculos."
+        },
+        {
+          "versiculo": "34-46",
+          "referencia": "Números 14:20-45; Salmo 106:24-27",
+          "comentario": "Las consecuencias de la rebelión enseñan que la desobediencia retrasa el cumplimiento de las promesas divinas."
+        }
+      ]
+    },
+    {
+      "capitulo": 2,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Números 20:14-21; Jueces 11:17-18",
+          "comentario": "El paso por territorio edomita muestra respeto por los parientes y la provisión divina en el desierto."
+        },
+        {
+          "versiculo": "9-15",
+          "referencia": "Números 21:10-20; Amós 2:10",
+          "comentario": "La prohibición de atacar a Moab y Amón demuestra que Dios tiene planes diferentes para cada nación."
+        },
+        {
+          "versiculo": "16-25",
+          "referencia": "Números 21:21-31; Josué 24:8-10",
+          "comentario": "La victoria sobre Sehón marca el comienzo de la posesión de la tierra, mostrando que Dios entrega reyes y naciones en manos de Israel."
+        },
+        {
+          "versiculo": "26-37",
+          "referencia": "Números 21:32-35; Salmo 135:10-12",
+          "comentario": "La derrota de Og rey de Basán confirma que ningún enemigo puede resistir cuando Dios pelea por su pueblo."
+        }
+      ]
+    },
+    {
+      "capitulo": 3,
+      "versiculos": [
+        {
+          "versiculo": "1-11",
+          "referencia": "Números 21:33-35; Josué 13:8-12",
+          "comentario": "La victoria sobre Og y la toma de sesenta ciudades fortificadas muestra el poder ilimitado de Dios sobre los gigantes y fortalezas."
+        },
+        {
+          "versiculo": "12-17",
+          "referencia": "Números 32:1-42; Josué 12:1-6",
+          "comentario": "La distribución de la tierra al oriente del Jordán establece el patrón para la futura división de Canaán."
+        },
+        {
+          "versiculo": "18-22",
+          "referencia": "Números 32:20-32; Josué 1:12-18",
+          "comentario": "El requerimiento de que las tribus del oriente ayuden a las demás muestra la unidad e interdependencia del pueblo de Dios."
+        },
+        {
+          "versiculo": "23-29",
+          "referencia": "Números 20:12; 27:12-14",
+          "comentario": "La súplica de Moisés y la respuesta divina enseñan sobre la soberanía de Dios y las consecuencias del pecado aun en los siervos fieles."
+        }
+      ]
+    },
+    {
+      "capitulo": 4,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Salmo 19:7-11; 119:98-100",
+          "comentario": "La ley de Dios presentada como sabiduría y justicia que distingue a Israel entre las naciones."
+        },
+        {
+          "versiculo": "9-14",
+          "referencia": "Éxodo 19:16-19; 20:18-21",
+          "comentario": "La importancia de enseñar a las siguientes generaciones para preservar el conocimiento del pacto."
+        },
+        {
+          "versiculo": "15-24",
+          "referencia": "Éxodo 20:4-6; Hechos 17:29",
+          "comentario": "La prohibición de imágenes enfatiza la naturaleza espiritual de Dios y el peligro de la idolatría."
+        },
+        {
+          "versiculo": "25-31",
+          "referencia": "2 Crónicas 15:2; Jeremías 29:13-14",
+          "comentario": "La promesa de restauración tras el arrepentimiento revela la misericordia y fidelidad del pacto divino."
+        },
+        {
+          "versiculo": "32-40",
+          "referencia": "Salmo 78:1-8; 136:1-26",
+          "comentario": "El llamado a recordar los actos únicos de Dios en la historia como fundamento de la fe y obediencia."
+        },
+        {
+          "versiculo": "41-49",
+          "referencia": "Números 35:9-15; Josué 20:1-9",
+          "comentario": "El establecimiento de ciudades de refugio muestra la justicia misericordiosa de Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 5,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Éxodo 19:9-19; Hebreos 12:18-21",
+          "comentario": "Moisés como mediador entre Dios e Israel prefigura el ministerio de Cristo como único mediador."
+        },
+        {
+          "versiculo": "6-21",
+          "referencia": "Éxodo 20:1-17; Mateo 5:17-20",
+          "comentario": "La repetición de los Diez Mandamientos reafirma su validez perpetua como norma moral para el pueblo de Dios."
+        },
+        {
+          "versiculo": "22-27",
+          "referencia": "Éxodo 20:18-21; Hebreos 12:18-21",
+          "comentario": "El temor reverente del pueblo ante la santidad de Dios es la respuesta apropiada a su majestad."
+        },
+        {
+          "versiculo": "28-33",
+          "referencia": "Deuteronomio 6:1-3; 12:28",
+          "comentario": "El deseo de Dios de que su pueblo siempre le tema y guarde sus mandamientos para su bienestar."
+        }
+      ]
+    },
+    {
+      "capitulo": 6,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Deuteronomio 5:32-33; 12:28",
+          "comentario": "La obediencia a los estatutos divinos como clave para la prolongación de la vida y el bienestar en la tierra prometida."
+        },
+        {
+          "versiculo": "4-9",
+          "referencia": "Marcos 12:29-30; Mateo 22:37-38",
+          "comentario": "El Shema Israel establece el monoteísmo absoluto y el amor total a Dios como fundamento de la fe."
+        },
+        {
+          "versiculo": "10-15",
+          "referencia": "Deuteronomio 8:10-18; Oseas 13:6",
+          "comentario": "La advertencia contra el olvido de Dios en la prosperidad muestra la tendencia humana a la autosuficiencia."
+        },
+        {
+          "versiculo": "16-19",
+          "referencia": "Mateo 4:7; 1 Corintios 10:9",
+          "comentario": "La prohibición de tentar a Dios recuerda la experiencia de Masah donde Israel puso a prueba su paciencia."
+        },
+        {
+          "versiculo": "20-25",
+          "referencia": "Éxodo 13:14-16; Josué 4:6-7",
+          "comentario": "La importancia de transmitir a los hijos el significado de las leyes y las obras poderosas de Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 7,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Éxodo 23:23-33; 34:11-16",
+          "comentario": "La destrucción total de los cananeos previene la idolatría y preserva la pureza del culto a Jehová."
+        },
+        {
+          "versiculo": "7-11",
+          "referencia": "Ezequiel 16:1-14; Tito 3:4-5",
+          "comentario": "La elección de Israel por gracia, no por méritos, muestra el amor soberano y fiel de Dios."
+        },
+        {
+          "versiculo": "12-16",
+          "referencia": "Éxodo 23:25-26; Deuteronomio 28:1-14",
+          "comentario": "Las bendiciones de la obediencia incluyen salud, prosperidad y victoria sobre los enemigos."
+        },
+        {
+          "versiculo": "17-26",
+          "referencia": "Números 13:28-33; Josué 11:16-23",
+          "comentario": "La seguridad en Dios que destruye naciones más poderosas, recordando las plagas de Egipto."
+        }
+      ]
+    },
+    {
+      "capitulo": 8,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Amós 2:10; Oseas 13:5",
+          "comentario": "El desierto como escuela de humildad y dependencia donde Dios prueba y disciplina a su pueblo."
+        },
+        {
+          "versiculo": "7-10",
+          "referencia": "Nehemías 9:25; Ezequiel 20:6",
+          "comentario": "La descripción de la tierra prometida como lugar de abundancia que requiere gratitud continua."
+        },
+        {
+          "versiculo": "11-18",
+          "referencia": "Proverbios 30:8-9; Oseas 13:6",
+          "comentario": "El peligro de la autosuficiencia en la prosperidad y el olvido de que Dios es la fuente de todo bien."
+        },
+        {
+          "versiculo": "19-20",
+          "referencia": "Deuteronomio 4:25-27; 28:15-68",
+          "comentario": "La advertencia final sobre las consecuencias de la idolatría y el abandono del pacto."
+        }
+      ]
+    },
+    {
+      "capitulo": 9,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Tito 3:5; Efesios 2:8-9",
+          "comentario": "La posesión de la tierra por gracia, no por justicia propia, evitando todo motivo de jactancia."
+        },
+        {
+          "versiculo": "7-21",
+          "referencia": "Éxodo 32:1-35; Salmo 106:19-23",
+          "comentario": "El recuerdo del becerro de oro muestra la constante propensión de Israel a la rebelión y la intercesión de Moisés."
+        },
+        {
+          "versiculo": "22-24",
+          "referencia": "Números 11:1-3; Salmo 78:21-22",
+          "comentario": "La enumeración de los lugares de rebelión demuestra la incredulidad persistente del pueblo."
+        },
+        {
+          "versiculo": "25-29",
+          "referencia": "Éxodo 32:11-14; Números 14:13-19",
+          "comentario": "La intercesión de Moisés como ejemplo de oración que apela al honor del nombre de Dios y sus promesas."
+        }
+      ]
+    },
+    {
+      "capitulo": 10,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Éxodo 34:1-4; 1 Reyes 8:9",
+          "comentario": "La renovación de las tablas de la ley muestra la paciencia de Dios y su disposición a restaurar el pacto."
+        },
+        {
+          "versiculo": "6-9",
+          "referencia": "Números 33:30-33; Jueces 18:30",
+          "comentario": "La elección de la tribu de Leví para el sacerdocio confirma el propósito divino en el servicio sagrado."
+        },
+        {
+          "versiculo": "10-11",
+          "referencia": "Éxodo 32:14; 33:1",
+          "comentario": "La oración de Moisés prevalece, y Dios continúa guiando a su pueblo hacia la tierra prometida."
+        },
+        {
+          "versiculo": "12-22",
+          "referencia": "Miqueas 6:8; Santiago 1:27",
+          "comentario": "El resumen de lo que Dios requiere: temor, obediencia, amor y servicio de corazón, con justicia hacia el necesitado."
+        }
+      ]
+    },
+    {
+      "capitulo": 11,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Salmo 78:1-8; 105:26-45",
+          "comentario": "El llamado a recordar las grandes obras de Dios en Egipto y el desierto como motivación para la obediencia."
+        },
+        {
+          "versiculo": "8-12",
+          "referencia": "Ezequiel 34:26-27; Joel 2:23",
+          "comentario": "La tierra de Canaán contrastada con Egipto: depende de la lluvia del cielo y la bendición divina."
+        },
+        {
+          "versiculo": "13-17",
+          "referencia": "1 Reyes 8:35-36; 2 Crónicas 7:13-14",
+          "comentario": "La conexión entre obediencia, bendición agrícola y advertencia contra la idolatría que lleva a sequía."
+        },
+        {
+          "versiculo": "18-25",
+          "referencia": "Deuteronomio 6:6-9; Proverbios 3:3",
+          "comentario": "La importancia de internalizar la palabra de Dios y enseñarla continuamente a las siguientes generaciones."
+        },
+        {
+          "versiculo": "26-32",
+          "referencia": "Deuteronomio 27:1-26; 30:15-20",
+          "comentario": "La elección entre bendición y maldición presentada como el dilema fundamental de la vida del pacto."
+        }
+      ]
+    },
+    {
+      "capitulo": 12,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Levítico 17:1-9; 1 Reyes 8:29",
+          "comentario": "La centralización del culto en el lugar que Dios escoja unifica la adoración y previene la idolatría."
+        },
+        {
+          "versiculo": "8-14",
+          "referencia": "2 Reyes 18:4; 2 Crónicas 33:17",
+          "comentario": "La prohibición de imitar las prácticas paganas de adoración en lugares altos y bajo árboles frondosos."
+        },
+        {
+          "versiculo": "15-28",
+          "referencia": "Deuteronomio 14:22-29; 15:19-23",
+          "comentario": "Permiso para matar animales para comer en las localidades, pero con la sangre derramada en honor a Dios."
+        },
+        {
+          "versiculo": "29-32",
+          "referencia": "Jeremías 10:2; 1 Corintios 10:20-21",
+          "comentario": "Advertencia contra la curiosidad por las prácticas paganas que pueden llevar a la imitación e idolatría."
+        }
+      ]
+    },
+    {
+      "capitulo": 13,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Mateo 24:24; 2 Tesalonicenses 2:9",
+          "comentario": "El falso profeta que hace señales debe ser rechazado aunque sus predicciones se cumplan, si lleva a la idolatría."
+        },
+        {
+          "versiculo": "6-11",
+          "referencia": "Mateo 10:37; Lucas 14:26",
+          "comentario": "El familiar cercano que incita a la idolatría debe ser denunciado, mostrando que la lealtad a Dios está por encima de los lazos familiares."
+        },
+        {
+          "versiculo": "12-18",
+          "referencia": "Josué 7:1-26; Hechos 5:1-11",
+          "comentario": "La ciudad idólatra debe ser destruida completamente para purgar el mal de Israel y evitar su propagación."
+        }
+      ]
+    },
+    {
+      "capitulo": 14,
+      "versiculos": [
+        {
+          "versiculo": "1-2",
+          "referencia": "Levítico 19:27-28; 1 Reyes 18:28",
+          "comentario": "La prohibición de prácticas paganas de duelo muestra la dignidad del pueblo santo de Dios."
+        },
+        {
+          "versiculo": "3-21",
+          "referencia": "Levítico 11:1-47; Hechos 10:9-16",
+          "comentario": "Las leyes dietéticas distinguen a Israel como pueblo santo y enseñan principios de separación espiritual."
+        },
+        {
+          "versiculo": "22-29",
+          "referencia": "Deuteronomio 12:17-19; Malaquías 3:10",
+          "comentario": "El diezmo para celebrar ante Dios y proveer para los levitas, extranjeros, huérfanos y viudas."
+        }
+      ]
+    },
+    {
+      "capitulo": 15,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Levítico 25:8-17; Nehemías 10:31",
+          "comentario": "El año de remisión de deudas cada siete años muestra la compasión divina y previene la pobreza perpetua."
+        },
+        {
+          "versiculo": "7-11",
+          "referencia": "Mateo 5:42; Lucas 6:34-35",
+          "comentario": "El llamado a la generosidad sin mezquindad, reconociendo que la bendición de Dios permite ser bendición."
+        },
+        {
+          "versiculo": "12-18",
+          "referencia": "Éxodo 21:1-11; Jeremías 34:8-22",
+          "comentario": "La liberación de siervos hebreos en el séptimo año, con provisión para su bienestar futuro."
+        },
+        {
+          "versiculo": "19-23",
+          "referencia": "Éxodo 13:2; Levítico 27:26",
+          "comentario": "La consagración de los primogénitos del ganado como reconocimiento de que todo pertenece a Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 16,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Éxodo 12:1-28; 2 Crónicas 30:1-27",
+          "comentario": "La Pascua como memorial perpetuo de la redención de Egipto, celebrada en el lugar que Dios escoja."
+        },
+        {
+          "versiculo": "9-12",
+          "referencia": "Hechos 2:1-4; 20:16",
+          "comentario": "Pentecostés o fiesta de las semanas, celebración de la cosecha con acción de gracias y alegría."
+        },
+        {
+          "versiculo": "13-17",
+          "referencia": "Levítico 23:33-43; Nehemías 8:14-18",
+          "comentario": "La fiesta de los tabernáculos conmemora la provisión divina durante la peregrinación en el desierto."
+        },
+        {
+          "versiculo": "18-20",
+          "referencia": "Éxodo 23:6-8; 2 Crónicas 19:5-7",
+          "comentario": "El establecimiento de jueces justos e imparciales en cada ciudad para administrar verdadera justicia."
+        },
+        {
+          "versiculo": "21-22",
+          "referencia": "Éxodo 34:13; 2 Reyes 17:16",
+          "comentario": "Prohibición de símbolos paganos como árboles rituales y piedras sagradas junto al altar de Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 17,
+      "versiculos": [
+        {
+          "versiculo": "1",
+          "referencia": "Levítico 22:17-25; Malaquías 1:8",
+          "comentario": "La exigencia de animales sin defecto para los sacrificios muestra la excelencia requerida en la adoración a Dios."
+        },
+        {
+          "versiculo": "2-7",
+          "referencia": "Deuteronomio 13:6-18; 1 Corintios 5:13",
+          "comentario": "El castigo por idolatría requiere múltiples testigos y ejecución pública para purgar el mal."
+        },
+        {
+          "versiculo": "8-13",
+          "referencia": "2 Crónicas 19:8-11; Hageo 2:11",
+          "comentario": "El tribunal superior de sacerdotes y jueces resuelve casos difíciles, y su veredicto es final."
+        },
+        {
+          "versiculo": "14-20",
+          "referencia": "1 Samuel 8:5-22; 1 Reyes 10:26-11:4",
+          "comentario": "Las leyes para el rey futuro: no multiplicar caballos, mujeres, oro, sino estudiar la ley de Dios diariamente."
+        }
+      ]
+    },
+    {
+      "capitulo": 18,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Números 18:20-24; 1 Corintios 9:13-14",
+          "comentario": "Los sacerdotes levitas no tienen heredad territorial porque Jehová es su porción y herencia."
+        },
+        {
+          "versiculo": "9-14",
+          "referencia": "Levítico 19:26-31; 2 Reyes 21:6",
+          "comentario": "Prohibición absoluta de prácticas ocultistas: adivinación, hechicería, espiritismo y consulta a muertos."
+        },
+        {
+          "versiculo": "15-19",
+          "referencia": "Hechos 3:22-23; 7:37",
+          "comentario": "La promesa del profeta como Moisés, cumplida en Cristo, el Verbo de Dios hecho carne."
+        },
+        {
+          "versiculo": "20-22",
+          "referencia": "Jeremías 28:9; Ezequiel 13:1-9",
+          "comentario": "El criterio para discernir profetas falsos: si sus palabras no se cumplen, no habló Jehová."
+        }
+      ]
+    },
+    {
+      "capitulo": 19,
+      "versiculos": [
+        {
+          "versiculo": "1-13",
+          "referencia": "Números 35:9-34; Josué 20:1-9",
+          "comentario": "Las ciudades de refugio proveen justicia misericordiosa para homicidas no intencionales."
+        },
+        {
+          "versiculo": "14",
+          "referencia": "Proverbios 22:28; 23:10",
+          "comentario": "La prohibición de mover los linderos protege la propiedad hereditaria dada por Dios."
+        },
+        {
+          "versiculo": "15-21",
+          "referencia": "Números 35:30; Mateo 18:16",
+          "comentario": "El requisito de dos o tres testigos para condenar y la ley del talión para asegurar justicia proporcional."
+        }
+      ]
+    },
+    {
+      "capitulo": 20,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "2 Crónicas 20:15-17; Salmo 20:7",
+          "comentario": "Las palabras de aliento del sacerdote antes de la batalla: Dios pelea por Israel, no hay que temer."
+        },
+        {
+          "versiculo": "10-15",
+          "referencia": "Josué 9:3-27; 2 Samuel 8:1-6",
+          "comentario": "Las condiciones de paz para ciudades lejanas: tributo y servidumbre en lugar de destrucción total."
+        },
+        {
+          "versiculo": "16-18",
+          "referencia": "Deuteronomio 7:1-5; Josué 11:14-20",
+          "comentario": "La destrucción completa de las naciones cananeas para prevenir la contaminación idolátrica."
+        },
+        {
+          "versiculo": "19-20",
+          "referencia": "2 Reyes 3:19-25; Eclesiastés 7:12",
+          "comentario": "La prohibición de destruir árboles frutales durante el sitio muestra el valor de la creación de Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 21,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Números 19:1-10; 35:33-34",
+          "comentario": "El ritual por homicidio de autor desconocido purga la culpa de sangre de la tierra."
+        },
+        {
+          "versiculo": "10-14",
+          "referencia": "Jueces 21:10-12; Esdras 9:1-2",
+          "comentario": "Las leyes sobre mujeres cautivas de guerra proveen protección y dignidad, evitando la esclavitud brutal."
+        },
+        {
+          "versiculo": "15-17",
+          "referencia": "Génesis 49:3-4; 1 Crónicas 5:1-2",
+          "comentario": "Los derechos del primogénito protegidos contra la preferencia paternal por hijos de esposas favoritas."
+        },
+        {
+          "versiculo": "18-21",
+          "referencia": "Proverbios 23:13-14; 29:17",
+          "comentario": "El hijo rebelde e incorregible enfrenta la pena capital para purgar el mal de Israel."
+        },
+        {
+          "versiculo": "22-23",
+          "referencia": "Josué 8:29; Gálatas 3:13",
+          "comentario": "La prohibición de dejar colgado un cuerpo durante la noche muestra respeto por la imagen de Dios en el hombre."
+        }
+      ]
+    },
+    {
+      "capitulo": 22,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Éxodo 23:4-5; Proverbios 24:11-12",
+          "comentario": "La responsabilidad de ayudar al prójimo recuperando y cuidando su propiedad perdida."
+        },
+        {
+          "versiculo": "5",
+          "referencia": "1 Corintios 6:9; 1 Timoteo 2:9-10",
+          "comentario": "La prohibición de transvestismo protege las distinciones de género establecidas por Dios en la creación."
+        },
+        {
+          "versiculo": "6-7",
+          "referencia": "Levítico 22:28; Proverbios 12:10",
+          "comentario": "La ley del nido muestra compasión por la creación animal y el principio de sostenibilidad."
+        },
+        {
+          "versiculo": "8",
+          "referencia": "Éxodo 21:33-34; Nehemías 3:1-32",
+          "comentario": "La responsabilidad de construir barandillas en los techos previene accidentes y muestra cuidado por la vida."
+        },
+        {
+          "versiculo": "9-12",
+          "referencia": "Levítico 19:19; Números 15:37-41",
+          "comentario": "Varias leyes de separación que enseñan el principio de santidad en la vida cotidiana."
+        },
+        {
+          "versiculo": "13-30",
+          "referencia": "Levítico 18:1-30; 20:10-21",
+          "comentario": "Leyes sobre pureza sexual y matrimonial que protegen la santidad de las relaciones familiares."
+        }
+      ]
+    },
+    {
+      "capitulo": 23,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Nehemías 13:1-3; Esdras 9:1-2",
+          "comentario": "Restricciones de entrada en la congregación para proteger la identidad santa del pueblo del pacto."
+        },
+        {
+          "versiculo": "9-14",
+          "referencia": "Levítico 15:16; 1 Samuel 21:5",
+          "comentario": "Leyes de pureza ceremonial en el campamento, especialmente durante campañas militares."
+        },
+        {
+          "versiculo": "15-16",
+          "referencia": "1 Samuel 30:15; Filemón 1:15-16",
+          "comentario": "La protección del esclavo fugitivo que busca refugio en Israel muestra compasión por los oprimidos."
+        },
+        {
+          "versiculo": "17-18",
+          "referencia": "Levítico 19:29; 1 Reyes 14:24",
+          "comentario": "Prohibición de prostitución cultual, práctica común en las religiones paganas de Canaán."
+        },
+        {
+          "versiculo": "19-20",
+          "referencia": "Éxodo 22:25; Levítico 25:35-37",
+          "comentario": "Prohibición de interés en préstamos a israelitas, pero permitido con extranjeros."
+        },
+        {
+          "versiculo": "21-23",
+          "referencia": "Eclesiastés 5:4-5; Salmo 66:13-14",
+          "comentario": "La importancia de cumplir los votos hechos a Dios sin demora."
+        },
+        {
+          "versiculo": "24-25",
+          "referencia": "Mateo 12:1; Lucas 6:1",
+          "comentario": "Permiso para comer de la viña o sembrado del prójimo, pero no llevar cosecha en recipientes."
+        }
+      ]
+    },
+    {
+      "capitulo": 24,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Mateo 5:31-32; 19:3-9",
+          "comentario": "Leyes sobre el divorcio que regulan pero no aprueban la práctica, mostrando el ideal divino del matrimonio."
+        },
+        {
+          "versiculo": "5",
+          "referencia": "Deuteronomio 20:7; 1 Corintios 7:33",
+          "comentario": "Exención militar para el recién casado, valorando la importancia de establecer el hogar."
+        },
+        {
+          "versiculo": "6-22",
+          "referencia": "Éxodo 22:26-27; Job 22:6",
+          "comentario": "Varias leyes humanitarias que protegen a los vulnerables: pobres, extranjeros, huérfanos y viudas."
+        }
+      ]
+    },
+    {
+      "capitulo": 25,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "2 Corintios 11:24; Proverbios 10:13",
+          "comentario": "Límite de cuarenta azotes en castigos corporales para evitar la deshonra excesiva."
+        },
+        {
+          "versiculo": "4",
+          "referencia": "1 Corintios 9:9-10; 1 Timoteo 5:18",
+          "comentario": "No poner bozal al buey que trilla, principio aplicado al sostenimiento de ministros del evangelio."
+        },
+        {
+          "versiculo": "5-10",
+          "referencia": "Rut 4:1-12; Mateo 22:24-28",
+          "comentario": "La ley del levirato preserva el nombre y la heredad del hermano fallecido sin hijos."
+        },
+        {
+          "versiculo": "11-12",
+          "referencia": "Levítico 24:19-20; Éxodo 21:22-25",
+          "comentario": "Ley sobre la mujer que interviene indebidamente en riña entre hombres."
+        },
+        {
+          "versiculo": "13-16",
+          "referencia": "Levítico 19:35-36; Proverbios 11:1",
+          "comentario": "Prohibición de pesos y medidas falsos, exigiendo integridad en el comercio."
+        },
+        {
+          "versiculo": "17-19",
+          "referencia": "Éxodo 17:8-16; 1 Samuel 15:2",
+          "comentario": "Mandato de borrar la memoria de Amalec por su cobarde ataque a los débiles de Israel."
+        }
+      ]
+    },
+    {
+      "capitulo": 26,
+      "versiculos": [
+        {
+          "versiculo": "1-11",
+          "referencia": "Éxodo 23:19; Nehemías 10:35-37",
+          "comentario": "La confesión al presentar las primicias reconoce la fidelidad de Dios desde Jacob hasta la posesión de Canaán."
+        },
+        {
+          "versiculo": "12-15",
+          "referencia": "Deuteronomio 14:28-29; Amós 4:4-5",
+          "comentario": "La declaración de fidelidad al dar el diezmo del tercer año para levitas y necesitados."
+        },
+        {
+          "versiculo": "16-19",
+          "referencia": "Éxodo 19:5-6; 1 Pedro 2:9",
+          "comentario": "La ratificación del pacto: Israel como pueblo santo de Dios, y Dios como su gloria y alabanza."
+        }
+      ]
+    },
+    {
+      "capitulo": 27,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Josué 8:30-35; 24:25-27",
+          "comentario": "El mandato de escribir la ley en piedras en el monte Ebal como testimonio permanente del pacto."
+        },
+        {
+          "versiculo": "9-10",
+          "referencia": "Deuteronomio 26:16-19; Josué 24:1-28",
+          "comentario": "La proclamación solemne de Israel como pueblo de Dios mediante la obediencia a sus mandamientos."
+        },
+        {
+          "versiculo": "11-26",
+          "referencia": "Josué 8:33-35; Gálatas 3:10",
+          "comentario": "Las doce maldiciones pronunciadas desde el monte Ebal por violaciones específicas a la ley de Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 28,
+      "versiculos": [
+        {
+          "versiculo": "1-14",
+          "referencia": "Levítico 26:3-13; Salmo 1:1-3",
+          "comentario": "Las bendiciones por la obediencia: prosperidad, victoria, lluvias oportunas y posición elevada entre naciones."
+        },
+        {
+          "versiculo": "15-68",
+          "referencia": "Levítico 26:14-39; Daniel 9:11-14",
+          "comentario": "Las maldiciones por la desobediencia: enfermedades, sequía, derrota, hambre, cannibalismo y exilio."
+        }
+      ]
+    },
+    {
+      "capitulo": 29,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Deuteronomio 4:32-40; 11:2-7",
+          "comentario": "El llamado a recordar las grandes obras de Dios en Egipto y el desierto como base del pacto."
+        },
+        {
+          "versiculo": "10-15",
+          "referencia": "Josué 9:21-27; Nehemías 10:28-29",
+          "comentario": "La inclusión de todos en el pacto: líderes, tribus, ancianos, oficiales, mujeres, niños y extranjeros."
+        },
+        {
+          "versiculo": "16-21",
+          "referencia": "Hebreos 12:15-16; 2 Pedro 2:20-22",
+          "comentario": "Advertencia contra la idolatría individual que contamina a la comunidad y atrae maldición."
+        },
+        {
+          "versiculo": "22-28",
+          "referencia": "1 Reyes 9:8-9; Jeremías 22:8-9",
+          "comentario": "Profecía de la futura desolación de la tierra como testimonio contra la infidelidad de Israel."
+        },
+        {
+          "versiculo": "29",
+          "referencia": "Isaías 55:8-9; Romanos 11:33-34",
+          "comentario": "El principio de que las cosas reveladas pertenecen a Israel, pero las secretas a Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 30,
+      "versiculos": [
+        {
+          "versiculo": "1-10",
+          "referencia": "Nehemías 1:8-9; Jeremías 29:12-14",
+          "comentario": "La promesa de restauración después del arrepentimiento, mostrando la misericordia y fidelidad del pacto."
+        },
+        {
+          "versiculo": "11-14",
+          "referencia": "Romanos 10:6-8; Efesios 3:17-19",
+          "comentario": "La accesibilidad de la palabra de Dios: no en el cielo ni beyond el mar, sino en la boca y el corazón."
+        },
+        {
+          "versiculo": "15-20",
+          "referencia": "Josué 24:15; Jeremías 21:8",
+          "comentario": "La elección fundamental entre vida y muerte, bendición y maldición, con el llamado a escoger la vida."
+        }
+      ]
+    },
+    {
+      "capitulo": 31,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Josué 1:1-9; 1 Crónicas 22:11-13",
+          "comentario": "La transición de liderazgo a Josué con palabras de ánimo y promesa de la presencia divina."
+        },
+        {
+          "versiculo": "9-13",
+          "referencia": "2 Reyes 22:8-13; Nehemías 8:1-8",
+          "comentario": "El mandato de leer la ley cada siete años en la fiesta de los tabernáculos para todas las generaciones."
+        },
+        {
+          "versiculo": "14-23",
+          "referencia": "Números 27:18-23; Salmo 90:1-17",
+          "comentario": "La comisión divina a Josué en el tabernáculo y el cántico profético de Moisés como testigo."
+        },
+        {
+          "versiculo": "24-30",
+          "referencia": "2 Reyes 22:16-17; Jeremías 25:4-11",
+          "comentario": "La colocación del libro de la ley junto al arca y la profecía de la futura rebelión de Israel."
+        }
+      ]
+    },
+    {
+      "capitulo": 32,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Isaías 1:2; Miqueas 6:1-2",
+          "comentario": "El cántico de Moisés comienza llamando al cielo y la tierra como testigos de la fidelidad divina."
+        },
+        {
+          "versiculo": "7-14",
+          "referencia": "Salmo 78:1-72; 147:7-9",
+          "comentario": "La descripción del cuidado paternal de Dios por Israel en el desierto como águila que cuida sus polluelos."
+        },
+        {
+          "versiculo": "15-18",
+          "referencia": "Nehemías 9:25-26; Jeremías 2:11-13",
+          "comentario": "La acusación contra Israel por engordar y rebelarse, abandonando a Dios por dioses nuevos."
+        },
+        {
+          "versiculo": "19-25",
+          "referencia": "Jueces 2:14; 2 Crónicas 36:16-17",
+          "comentario": "El juicio divino mediante naciones paganas que provocan el celo de Dios."
+        },
+        {
+          "versiculo": "26-38",
+          "referencia": "Jueces 10:11-14; Salmo 106:40-46",
+          "comentario": "La autocontención divina para no destruir completamente a Israel por amor a su nombre."
+        },
+        {
+          "versiculo": "39-43",
+          "referencia": "1 Samuel 2:6-8; Isaías 45:5-7",
+          "comentario": "La proclamación de la soberanía absoluta de Dios sobre vida y muerte, salvación y juicio."
+        },
+        {
+          "versiculo": "44-47",
+          "referencia": "Deuteronomio 31:24-29; Juan 5:39",
+          "comentario": "La exhortación final de Moisés a guardar todas las palabras de la ley que son vida para Israel."
+        },
+        {
+          "versiculo": "48-52",
+          "referencia": "Números 20:12; 27:12-14",
+          "comentario": "El mandato divino a Moisés de subir al monte Nebo para ver la tierra antes de morir."
+        }
+      ]
+    },
+    {
+      "capitulo": 33,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Génesis 49:1-28; Jueces 5:1-31",
+          "comentario": "La bendición final de Moisés comienza alabando a Dios que vino de Sinaí con santas miríadas."
+        },
+        {
+          "versiculo": "6-25",
+          "referencia": "Génesis 49:3-27; 1 Crónicas 12:23-40",
+          "comentario": "Las bendiciones específicas para cada tribu según su carácter y destino divinamente ordenado."
+        },
+        {
+          "versiculo": "26-29",
+          "referencia": "Salmo 18:1-2; 91:1-2",
+          "comentario": "La conclusión alaba al Dios de Jesurún como refugio eterno y escudo de su pueblo."
+        }
+      ]
+    },
+    {
+      "capitulo": 34,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Génesis 12:7; 13:14-15",
+          "comentario": "Dios muestra a Moisés toda la tierra prometida, cumpliendo su palabra aunque no le permite entrar."
+        },
+        {
+          "versiculo": "5-8",
+          "referencia": "Números 20:12; 27:12-14",
+          "comentario": "La muerte de Moisés en Moab, enterrado por Dios mismo, con vigor intacto a los 120 años."
+        },
+        {
+          "versiculo": "9",
+          "referencia": "Números 27:18-23; Josué 1:1-9",
+          "comentario": "Josué lleno del espíritu de sabiduría por imposición de manos de Moisés, y Israel obedeciéndole."
+        },
+        {
+          "versiculo": "10-12",
+          "referencia": "Éxodo 33:11; Números 12:6-8",
+          "comentario": "El testimonio final sobre Moisés como profeta único a quien Dios conoció cara a cara, con señales sin igual."
+        }
+      ]
+    }
+  ]
+}

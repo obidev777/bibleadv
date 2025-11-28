@@ -1,0 +1,660 @@
+{
+  "libro": "Levítico",
+  "comentarios": [
+    {
+      "capitulo": 1,
+      "versiculos": [
+        {
+          "versiculo": "1-2",
+          "referencia": "Éxodo 40:34-35; Números 7:89",
+          "comentario": "Dios habla a Moisés desde el tabernáculo, estableciendo el patrón de comunicación divina desde el lugar santísimo."
+        },
+        {
+          "versiculo": "3-9",
+          "referencia": "Hebreos 10:1-10; Juan 1:29",
+          "comentario": "El holocausto representa la consagración total a Dios, prefigurando el sacrificio perfecto de Cristo que nos santifica completamente."
+        },
+        {
+          "versiculo": "10-13",
+          "referencia": "1 Pedro 1:19; Apocalipsis 5:6",
+          "comentario": "El sacrificio de los corderos sin defecto señala hacia Cristo, el Cordero inmaculado de Dios que quita el pecado del mundo."
+        },
+        {
+          "versiculo": "14-17",
+          "referencia": "Levítico 5:7-10; Lucas 2:24",
+          "comentario": "La ofrenda de aves permite hasta a los más pobres acercarse a Dios, mostrando la accesibilidad de la gracia divina."
+        }
+      ]
+    },
+    {
+      "capitulo": 2,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Juan 6:35; 1 Corintios 5:8",
+          "comentario": "La ofrenda de flor de harina sin levadura representa a Cristo como pan de vida, puro y sin mezcla de pecado."
+        },
+        {
+          "versiculo": "4-10",
+          "referencia": "Éxodo 29:2; Levítico 6:14-18",
+          "comentario": "Las ofrendas cocidas muestran variedad en la adoración, permitiendo diferentes expresiones de devoción a Dios."
+        },
+        {
+          "versiculo": "11-16",
+          "referencia": "1 Corintios 5:6-8; Marcos 8:15",
+          "comentario": "La prohibición de levadura y miel simboliza la exclusión del pecado y del dulzor natural en el servicio a Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 3,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Romanos 5:1; Efesios 2:14",
+          "comentario": "El sacrificio de paz establece comunión con Dios, prefigurando la reconciliación que tenemos en Cristo."
+        },
+        {
+          "versiculo": "6-11",
+          "referencia": "Levítico 7:28-34; 1 Corintios 10:18",
+          "comentario": "La ofrenda del ganado mayor muestra la generosidad en la adoración, dando lo mejor para la comunión con Dios."
+        },
+        {
+          "versiculo": "12-17",
+          "referencia": "Levítico 7:22-27; Hechos 15:20",
+          "comentario": "La prohibición de comer grasa y sangre enseña respeto por lo sagrado y prepara para entender el sacrificio de Cristo."
+        }
+      ]
+    },
+    {
+      "capitulo": 4,
+      "versiculos": [
+        {
+          "versiculo": "1-12",
+          "referencia": "Hebreos 9:13-14; 1 Juan 2:1-2",
+          "comentario": "El sacrificio por el pecado del sacerdote muestra que hasta los líderes espirituales necesitan expiación."
+        },
+        {
+          "versiculo": "13-21",
+          "referencia": "Números 15:22-26; Santiago 3:2",
+          "comentario": "El pecado de la congregación requiere expiación colectiva, enseñando responsabilidad comunitaria ante Dios."
+        },
+        {
+          "versiculo": "22-26",
+          "referencia": "Levítico 5:1-6; Proverbios 29:1",
+          "comentario": "El pecado de un gobernante tiene consecuencias amplias, requiriendo expiación específica por su posición."
+        },
+        {
+          "versiculo": "27-35",
+          "referencia": "Levítico 5:7-13; 1 Juan 1:9",
+          "comentario": "La provisión para el pecado del común del pueblo muestra la accesibilidad del perdón divino para todos."
+        }
+      ]
+    },
+    {
+      "capitulo": 5,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Proverbios 29:24; Santiago 4:17",
+          "comentario": "Los pecados de omisión y negligencia también requieren expiación, mostrando la integridad que Dios demanda."
+        },
+        {
+          "versiculo": "7-13",
+          "referencia": "Lucas 21:1-4; 2 Corintios 8:12",
+          "comentario": "Las ofrendas graduadas según la capacidad económica demuestran la justicia y misericordia de Dios."
+        },
+        {
+          "versiculo": "14-19",
+          "referencia": "Levítico 6:1-7; Números 5:5-8",
+          "comentario": "La ofrenda por la culpa incluye restitución, enseñando que el verdadero arrepentimiento implica reparar el daño."
+        }
+      ]
+    },
+    {
+      "capitulo": 6,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Lucas 19:8-9; Efesios 4:28",
+          "comentario": "La restitución con añadidía del 20% enfatiza la justicia restaurativa en las relaciones humanas."
+        },
+        {
+          "versiculo": "8-13",
+          "referencia": "Hebreos 13:15; 1 Tesalonicenses 5:17",
+          "comentario": "El fuego perpetuo en el altar simboliza la adoración continua que debe caracterizar al pueblo de Dios."
+        },
+        {
+          "versiculo": "14-23",
+          "referencia": "Levítico 2:1-16; 1 Corintios 9:13-14",
+          "comentario": "Las ofrendas de los sacerdotes establecen el principio de que los ministros deben ser sostenidos en su servicio."
+        },
+        {
+          "versiculo": "24-30",
+          "referencia": "Hebreos 13:11-13; 1 Pedro 1:19",
+          "comentario": "La santidad de las ofrendas por el pecado enseña la seriedad del pecado y la santidad requerida para tratarlo."
+        }
+      ]
+    },
+    {
+      "capitulo": 7,
+      "versiculos": [
+        {
+          "versiculo": "1-10",
+          "referencia": "Levítico 6:24-30; Números 18:8-10",
+          "comentario": "Las porciones sacerdotales en los sacrificios muestran el cuidado de Dios por sus siervos y su sustento."
+        },
+        {
+          "versiculo": "11-21",
+          "referencia": "1 Corintios 10:18-21; 1 Juan 1:3",
+          "comentario": "Los sacrificios de acción de gracias expresan gratitud a Dios y comunión con Él y con su pueblo."
+        },
+        {
+          "versiculo": "22-27",
+          "referencia": "Hechos 15:20; Génesis 9:4",
+          "comentario": "La prohibición estricta de comer grasa y sangre prepara para comprender el valor de la sangre de Cristo."
+        },
+        {
+          "versiculo": "28-38",
+          "referencia": "Levítico 3:1-17; Números 18:8-19",
+          "comentario": "La porción del sacerdote en el sacrificio de paz simboliza nuestra comunión con Cristo en su sacrificio."
+        }
+      ]
+    },
+    {
+      "capitulo": 8,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Éxodo 29:1-9; Hebreos 7:26-28",
+          "comentario": "La convocación pública para la consagración sacerdotal enfatiza la importancia del ministerio ante toda la congregación."
+        },
+        {
+          "versiculo": "6-13",
+          "referencia": "Éxodo 28:1-43; 1 Pedro 2:9",
+          "comentario": "Las vestiduras sagradas y la unción establecen la separación y autoridad del sacerdocio para el servicio divino."
+        },
+        {
+          "versiculo": "14-30",
+          "referencia": "Hebreos 9:22; 1 Juan 1:7",
+          "comentario": "Los múltiples sacrificios de consagración muestran la completa dedicación requerida para el servicio sagrado."
+        },
+        {
+          "versiculo": "31-36",
+          "referencia": "Éxodo 29:31-34; Levítico 10:12-15",
+          "comentario": "El tiempo de consagración de siete días simboliza la perfección y completitud requerida en el servicio a Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 9,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Hebreos 5:1-4; 8:3-5",
+          "comentario": "El inicio del ministerio sacerdontal después de la consagración marca el comienzo del servicio oficial ante Dios."
+        },
+        {
+          "versiculo": "8-14",
+          "referencia": "Hebreos 7:27; 9:12-14",
+          "comentario": "Los sacrificios por el pecado del sacerdote y del pueblo establecen el patrón de mediación necesaria."
+        },
+        {
+          "versiculo": "15-21",
+          "referencia": "Levítico 3:1-11; Romanos 12:1",
+          "comentario": "Los sacrificios por el pueblo completan el proceso de expiación y consagración colectiva."
+        },
+        {
+          "versiculo": "22-24",
+          "referencia": "2 Crónicas 7:1; Hechos 2:1-4",
+          "comentario": "La aparición de la gloria de Dios y el fuego consumidor confirman la aceptación divina del servicio sacerdotal."
+        }
+      ]
+    },
+    {
+      "capitulo": 10,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "1 Samuel 2:12-17; 1 Corintios 11:27-30",
+          "comentario": "El juicio sobre Nadab y Abiú muestra la santidad extrema requerida al acercarse a Dios con fuego extraño."
+        },
+        {
+          "versiculo": "4-7",
+          "referencia": "Ezequiel 44:25-27; 1 Pedro 4:17",
+          "comentario": "La prohibición del duelo público para los sacerdotes enfatiza su consagración exclusiva al servicio divino."
+        },
+        {
+          "versiculo": "8-11",
+          "referencia": "Ezequiel 44:21; Lucas 1:15",
+          "comentario": "La prohibición del vino y bebidas fuertes asegura claridad mental para discernir entre lo santo y lo profano."
+        },
+        {
+          "versiculo": "12-20",
+          "referencia": "Levítico 6:14-18; 1 Samuel 2:29",
+          "comentario": "La comida de las ofrendas en el lugar santo reafirma la santidad requerida en el consumo de lo consagrado."
+        }
+      ]
+    },
+    {
+      "capitulo": 11,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Hechos 10:9-16; 1 Timoteo 4:4-5",
+          "comentario": "Las leyes dietéticas separan a Israel físicamente y enseñan principios de pureza y santidad práctica."
+        },
+        {
+          "versiculo": "9-12",
+          "referencia": "Deuteronomio 14:9-10; 1 Corintios 10:31",
+          "comentario": "La distinción entre animales acuáticos puros e impuros refleja el principio de separación espiritual."
+        },
+        {
+          "versiculo": "13-23",
+          "referencia": "Deuteronomio 14:11-20; Mateo 3:4",
+          "comentario": "Las aves e insectos permitidos y prohibidos enseñan discernimiento en las elecciones diarias."
+        },
+        {
+          "versiculo": "24-47",
+          "referencia": "2 Corintios 6:17; 1 Pedro 1:15-16",
+          "comentario": "Las leyes de purificación por contacto con lo impuro enfatizan la contaminación espiritual del pecado."
+        }
+      ]
+    },
+    {
+      "capitulo": 12,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Lucas 2:22-24; Gálatas 4:4-5",
+          "comentario": "La purificación después del parto conecta con el pecado original y señala hacia el nacimiento de Cristo."
+        },
+        {
+          "versiculo": "6-8",
+          "referencia": "Lucas 2:22-24; Hebreos 7:18-19",
+          "comentario": "La ofrenda de la pobreza (tórtolas) muestra la gracia de Dios accesible a todos, ricos y pobres."
+        }
+      ]
+    },
+    {
+      "capitulo": 13,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Deuteronomio 24:8; Santiago 5:14-15",
+          "comentario": "La inspección sacerdotal de la lepra representa el discernimiento espiritual necesario para diagnosticar el pecado."
+        },
+        {
+          "versiculo": "9-17",
+          "referencia": "Números 12:10-15; 2 Reyes 5:1-14",
+          "comentario": "La lepra establecida requiere separación, simbolizando el efecto aislador del pecado no confesado."
+        },
+        {
+          "versiculo": "18-44",
+          "referencia": "Isaías 1:5-6; Jeremías 8:22",
+          "comentario": "Los diversos tipos de infecciones cutáneas enseñan que el pecado se manifiesta de múltiples formas."
+        },
+        {
+          "versiculo": "45-46",
+          "referencia": "Lamentaciones 4:15; Efesios 2:12",
+          "comentario": "La condición del leproso separado prefigura la alienación espiritual causada por el pecado."
+        },
+        {
+          "versiculo": "47-59",
+          "referencia": "Zacarías 13:1; 1 Juan 1:9",
+          "comentario": "Las leyes sobre la lepra en vestidos simbolizan la contaminación del pecado en nuestro entorno y posesiones."
+        }
+      ]
+    },
+    {
+      "capitulo": 14,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Mateo 8:2-4; Lucas 17:12-14",
+          "comentario": "El ritual de purificación del leproso prefigura la limpieza espiritual que Cristo ofrece a los pecadores."
+        },
+        {
+          "versiculo": "10-20",
+          "referencia": "Levítico 5:7-13; Lucas 2:24",
+          "comentario": "Las ofrendas de purificación enfatizan el costo de la limpieza espiritual y la restauración a la comunión."
+        },
+        {
+          "versiculo": "21-32",
+          "referencia": "Lucas 21:1-4; 2 Corintios 8:12",
+          "comentario": "La provisión para los pobres muestra la gracia adaptada a las capacidades de cada persona."
+        },
+        {
+          "versiculo": "33-53",
+          "referencia": "1 Corintios 3:16-17; 2 Corintios 6:16",
+          "comentario": "La purificación de las casas con lepra simboliza la necesidad de santificar nuestros hogares y entornos."
+        },
+        {
+          "versiculo": "54-57",
+          "referencia": "Romanos 3:20; 7:7",
+          "comentario": "El propósito de estas leyes es enseñar a discernir entre lo limpio e inmundo, lo santo y lo profano."
+        }
+      ]
+    },
+    {
+      "capitulo": 15,
+      "versiculos": [
+        {
+          "versiculo": "1-18",
+          "referencia": "1 Corintios 6:18-20; 1 Tesalonicenses 4:3-5",
+          "comentario": "Las leyes sobre emisiones corporales enseñan el principio de santidad en las funciones físicas más íntimas."
+        },
+        {
+          "versiculo": "19-24",
+          "referencia": "Lucas 8:43-48; Hebreos 13:4",
+          "comentario": "La impureza menstrual enfatiza la santidad requerida en las relaciones conyugales y la vida familiar."
+        },
+        {
+          "versiculo": "25-33",
+          "referencia": "Mateo 9:20-22; Marcos 5:25-34",
+          "comentario": "Las emisiones anormales requieren purificación especial, mostrando la gracia para condiciones crónicas."
+        }
+      ]
+    },
+    {
+      "capitulo": 16,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Hebreos 9:7; 13:11",
+          "comentario": "El día de la expiación requiere preparación especial del sumo sacerdote, mostrando la solemnidad del juicio."
+        },
+        {
+          "versiculo": "6-10",
+          "referencia": "Hebreos 9:12-14; 1 Juan 2:1-2",
+          "comentario": "Los dos machos cabríos representan la expiación (el sacrificado) y la remisión de pecados (el enviado al desierto)."
+        },
+        {
+          "versiculo": "11-19",
+          "referencia": "Hebreos 9:24-26; Romanos 3:25",
+          "comentario": "La entrada del sumo sacerdote al lugar santísimo prefigura la entrada de Cristo al cielo mismo."
+        },
+        {
+          "versiculo": "20-22",
+          "referencia": "Salmo 103:12; Miqueas 7:19",
+          "comentario": "El macho cabrío para Azazel lleva los pecados lejos, simbolizando la completa remisión que tenemos en Cristo."
+        },
+        {
+          "versiculo": "23-28",
+          "referencia": "Hebreos 9:28; 10:10-14",
+          "comentario": "Los rituales de purificación final enfatizan la completa eficacia de la expiación una vez completada."
+        },
+        {
+          "versiculo": "29-34",
+          "referencia": "Isaías 58:3-5; Hechos 27:9",
+          "comentario": "La aflicción personal en el día de la expiación enseña la seriedad del pecado y la necesidad de arrepentimiento."
+        }
+      ]
+    },
+    {
+      "capitulo": 17,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Deuteronomio 12:5-28; 1 Reyes 12:28-33",
+          "comentario": "La centralización de los sacrificios previene la idolatría y mantiene la pureza del culto a Jehová."
+        },
+        {
+          "versiculo": "10-16",
+          "referencia": "Génesis 9:4; Hechos 15:20",
+          "comentario": "La prohibición estricta de comer sangre prepara para entender el valor expiatorio de la sangre de Cristo."
+        }
+      ]
+    },
+    {
+      "capitulo": 18,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Ezequiel 20:7-8; Romanos 12:2",
+          "comentario": "La separación de las prácticas egipcias y cananeas enfatiza la santidad distintiva del pueblo de Dios."
+        },
+        {
+          "versiculo": "6-18",
+          "referencia": "1 Corintios 5:1; 1 Tesalonicenses 4:3-8",
+          "comentario": "Las leyes sobre relaciones familiares protegen la santidad del matrimonio y la estructura familiar."
+        },
+        {
+          "versiculo": "19-23",
+          "referencia": "1 Corintios 6:9-10; Romanos 1:26-27",
+          "comentario": "La prohibición de perversiones sexuales establece los límites sagrados de la sexualidad humana."
+        },
+        {
+          "versiculo": "24-30",
+          "referencia": "1 Corintios 10:8; Efesios 5:5",
+          "comentario": "La advertencia sobre las consecuencias de la inmoralidad muestra el juicio divino sobre el pecado sexual."
+        }
+      ]
+    },
+    {
+      "capitulo": 19,
+      "versiculos": [
+        {
+          "versiculo": "1-2",
+          "referencia": "1 Pedro 1:15-16; Mateo 5:48",
+          "comentario": "El llamado a la santidad porque Dios es santo establece el fundamento de toda la vida moral y espiritual."
+        },
+        {
+          "versiculo": "3-8",
+          "referencia": "Éxodo 20:12; Deuteronomio 5:16",
+          "comentario": "La combinación de deberes hacia Dios y padres muestra la integralidad de la obediencia sagrada."
+        },
+        {
+          "versiculo": "9-18",
+          "referencia": "Romanos 13:8-10; Gálatas 5:14",
+          "comentario": "Las leyes de amor al prójimo resumen la segunda tabla de la ley y preparan para el mandamiento de Cristo."
+        },
+        {
+          "versiculo": "19-37",
+          "referencia": "Deuteronomio 22:9-11; 2 Corintios 6:14",
+          "comentario": "Las diversas leyes civiles y morales enseñan santidad práctica en todos los aspectos de la vida."
+        }
+      ]
+    },
+    {
+      "capitulo": 20,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Levítico 18:21; Deuteronomio 18:10",
+          "comentario": "Las penalidades por idolatría y ocultismo muestran la seriedad de la infidelidad espiritual."
+        },
+        {
+          "versiculo": "9-21",
+          "referencia": "Éxodo 21:17; Deuteronomio 27:16",
+          "comentario": "Las consecuencias por pecados familiares y sexuales protegen la santidad de las relaciones fundamentales."
+        },
+        {
+          "versiculo": "22-27",
+          "referencia": "1 Pedro 1:14-16; 2 Corintios 6:17",
+          "comentario": "El llamado final a la separación y santidad reafirma la identidad distintiva del pueblo de Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 21,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Ezequiel 44:25-27; 1 Timoteo 3:2-3",
+          "comentario": "Las restricciones especiales para los sacerdotes enfatizan el mayor nivel de santidad requerido para los ministros."
+        },
+        {
+          "versiculo": "10-15",
+          "referencia": "Levítico 10:6-7; Ezequiel 44:20-22",
+          "comentario": "Las normas adicionales para el sumo sacerdote muestran la máxima consagración requerida para el liderazgo."
+        },
+        {
+          "versiculo": "16-24",
+          "referencia": "2 Samuel 5:8; 1 Corintios 1:26-29",
+          "comentario": "Las deficiencias físicas que inhabilitan para el servicio directo muestran la perfección requerida en el simbolismo."
+        }
+      ]
+    },
+    {
+      "capitulo": 22,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Levítico 10:1-3; 1 Samuel 2:12-17",
+          "comentario": "La prohibición de comer lo santo en impureza protege la santidad de las ofrendas consagradas a Dios."
+        },
+        {
+          "versiculo": "10-16",
+          "referencia": "Números 18:8-32; 1 Corintios 9:13",
+          "comentario": "Las regulaciones sobre quién puede comer las ofrendas mantienen la separación entre lo sagrado y lo común."
+        },
+        {
+          "versiculo": "17-25",
+          "referencia": "Malaquías 1:7-8; 1 Pedro 1:19",
+          "comentario": "La exigencia de animales sin defecto para los sacrificios prefigura la perfección de Cristo como ofrenda."
+        },
+        {
+          "versiculo": "26-33",
+          "referencia": "Éxodo 22:30; Deuteronomio 15:19-23",
+          "comentario": "Las normas sobre animales jóvenes y su madre protegen la creación y muestran la misericordia divina."
+        }
+      ]
+    },
+    {
+      "capitulo": 23,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Éxodo 20:8-11; Isaías 58:13-14",
+          "comentario": "El sábado semanal como convocación santa establece el ritmo divino para la adoración y el descanso."
+        },
+        {
+          "versiculo": "4-8",
+          "referencia": "Éxodo 12:1-28; 1 Corintios 5:7-8",
+          "comentario": "La Pascua y los panes sin levadura conmemoran la redención y enseñan la santificación del creyente."
+        },
+        {
+          "versiculo": "9-14",
+          "referencia": "1 Corintios 15:20; Romanos 8:23",
+          "comentario": "La ofrenda de las primicias prefigura la resurrección de Cristo como primicias de los que durmieron."
+        },
+        {
+          "versiculo": "15-22",
+          "referencia": "Hechos 2:1-4; Santiago 1:17",
+          "comentario": "Pentecostés celebra la cosecha y prefigura la efusión del Espíritu Santo sobre la iglesia."
+        },
+        {
+          "versiculo": "23-25",
+          "referencia": "Números 29:1-6; Salmo 81:3",
+          "comentario": "La fiesta de las trompetas anuncia tiempos solemnes y prepara para el juicio y la redención."
+        },
+        {
+          "versiculo": "26-32",
+          "referencia": "Levítico 16:1-34; Hebreos 9:7",
+          "comentario": "El día de la expiación representa el juicio final y la completa purificación del pecado."
+        },
+        {
+          "versiculo": "33-44",
+          "referencia": "Juan 7:37-39; Zacarías 14:16-19",
+          "comentario": "La fiesta de los tabernáculos conmemora la provisión divina en el desierto y prefigura el reino mesiánico."
+        }
+      ]
+    },
+    {
+      "capitulo": 24,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Éxodo 27:20-21; Apocalipsis 1:12-13",
+          "comentario": "El candelero continuamente encendido simboliza el testimonio perpetuo de Dios en medio de su pueblo."
+        },
+        {
+          "versiculo": "5-9",
+          "referencia": "Éxodo 25:30; Mateo 12:3-4",
+          "comentario": "Los panes de la proposición representan la comunión continua entre Dios y su pueblo."
+        },
+        {
+          "versiculo": "10-16",
+          "referencia": "Éxodo 22:28; 1 Reyes 21:10-13",
+          "comentario": "El castigo por blasfemia muestra la santidad del nombre de Dios y la seriedad de profanarlo."
+        },
+        {
+          "versiculo": "17-23",
+          "referencia": "Génesis 9:6; Números 35:16-21",
+          "comentario": "La ley del talión establece justicia proporcional y protege el valor de la vida humana."
+        }
+      ]
+    },
+    {
+      "capitulo": 25,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Éxodo 23:10-11; 2 Crónicas 36:21",
+          "comentario": "El año sabático de reposo para la tierra enseña dependencia de Dios y cuidado de la creación."
+        },
+        {
+          "versiculo": "8-17",
+          "referencia": "Isaías 61:1-2; Lucas 4:18-19",
+          "comentario": "El año del jubileo proclama libertad y restauración, prefigurando la redención completa en Cristo."
+        },
+        {
+          "versiculo": "18-22",
+          "referencia": "Deuteronomio 28:1-14; Proverbios 3:9-10",
+          "comentario": "La promesa de bendición por la obediencia muestra el cuidado providencial de Dios por los obedientes."
+        },
+        {
+          "versiculo": "23-34",
+          "referencia": "Salmo 24:1; 1 Crónicas 29:14-16",
+          "comentario": "La tierra como posesión de Dios establece el principio de mayordomía sobre la propiedad."
+        },
+        {
+          "versiculo": "35-55",
+          "referencia": "Deuteronomio 15:7-11; Nehemías 5:1-13",
+          "comentario": "Las leyes sobre la servidumbre y redención muestran la compasión divina por los pobres y oprimidos."
+        }
+      ]
+    },
+    {
+      "capitulo": 26,
+      "versiculos": [
+        {
+          "versiculo": "1-13",
+          "referencia": "Deuteronomio 28:1-14; Salmo 1:1-3",
+          "comentario": "Las bendiciones por la obediencia prometen prosperidad, paz y la presencia continua de Dios."
+        },
+        {
+          "versiculo": "14-39",
+          "referencia": "Deuteronomio 28:15-68; Jeremías 17:27",
+          "comentario": "Las maldiciones por la desobediencia advierten sobre el juicio progresivo de Dios sobre el pecado."
+        },
+        {
+          "versiculo": "40-46",
+          "referencia": "1 Juan 1:9; Daniel 9:3-19",
+          "comentario": "La promesa de restauración tras el arrepentimiento muestra la misericordia y fidelidad del pacto divino."
+        }
+      ]
+    },
+    {
+      "capitulo": 27,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Números 18:16; Lucas 2:22-24",
+          "comentario": "Los votos de personas con evaluación variable muestran la justicia de Dios que considera las capacidades."
+        },
+        {
+          "versiculo": "9-25",
+          "referencia": "Números 18:14; Ezequiel 44:29",
+          "comentario": "Las dedicaciones de animales y propiedades establecen principios para los votos y ofrendas especiales."
+        },
+        {
+          "versiculo": "26-34",
+          "referencia": "Números 18:21-24; Nehemías 10:35-39",
+          "comentario": "Las cosas consagradas irrevocablemente a Dios enseñan la seriedad de los votos y la santidad de lo dedicado."
+        }
+      ]
+    }
+  ]
+}

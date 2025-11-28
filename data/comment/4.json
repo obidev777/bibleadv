@@ -1,0 +1,875 @@
+{
+  "libro": "Números",
+  "comentarios": [
+    {
+      "capitulo": 1,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Éxodo 30:11-16; 38:25-26",
+          "comentario": "Dios ordena el censo en el desierto para organizar su ejército, mostrando que Él valora el orden y la preparación en su obra."
+        },
+        {
+          "versiculo": "5-16",
+          "referencia": "Éxodo 18:21-25; 1 Crónicas 27:1-34",
+          "comentario": "Los príncipes de las tribus son hombres de renombre, demostrando que Dios usa líderes capacitados para guiar a su pueblo."
+        },
+        {
+          "versiculo": "17-46",
+          "referencia": "Éxodo 12:37; 38:26",
+          "comentario": "El número de los contados revela el cumplimiento de la promesa a Abraham de hacer su descendencia numerosa como las estrellas."
+        },
+        {
+          "versiculo": "47-54",
+          "referencia": "Números 3:5-13; 8:5-26",
+          "comentario": "La separación de los levitas para el servicio del tabernáculo muestra la santidad requerida en el ministerio sagrado."
+        }
+      ]
+    },
+    {
+      "capitulo": 2,
+      "versiculos": [
+        {
+          "versiculo": "1-2",
+          "referencia": "Números 10:14-28; Salmo 80:1",
+          "comentario": "El orden del campamento alrededor del tabernáculo enseña que Dios debe estar en el centro de la vida de su pueblo."
+        },
+        {
+          "versiculo": "3-31",
+          "referencia": "Números 1:5-15; 10:14-28",
+          "comentario": "La disposición estratégica de las tribus muestra la sabiduría divina en la organización y protección de Israel."
+        },
+        {
+          "versiculo": "32-34",
+          "referencia": "Números 1:46; 26:51",
+          "comentario": "El total del censo confirma el crecimiento milagroso de Israel a pesar de la esclavitud en Egipto."
+        }
+      ]
+    },
+    {
+      "capitulo": 3,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Levítico 10:1-2; 1 Crónicas 24:1-2",
+          "comentario": "La elección de los hijos de Aarón para el sacerdocio muestra la soberanía divina en el llamamiento al ministerio."
+        },
+        {
+          "versiculo": "5-13",
+          "referencia": "Números 8:5-19; 18:1-7",
+          "comentario": "Dios toma a los levitas en lugar de los primogénitos de Israel, simbolizando la sustitución redentora."
+        },
+        {
+          "versiculo": "14-39",
+          "referencia": "Números 4:1-49; 1 Crónicas 23:1-32",
+          "comentario": "El censo y las responsabilidades de los levitas establecen el orden en el servicio del santuario."
+        },
+        {
+          "versiculo": "40-51",
+          "referencia": "Éxodo 13:1-2; Números 18:15-16",
+          "comentario": "El rescate de los primogénitos excedentes muestra el valor que Dios da a cada vida en su pueblo."
+        }
+      ]
+    },
+    {
+      "capitulo": 4,
+      "versiculos": [
+        {
+          "versiculo": "1-20",
+          "referencia": "Números 3:25-37; 1 Crónicas 23:24-32",
+          "comentario": "Las responsabilidades específicas de los coatitas, gersonitas y meraritas muestran la diversidad de dones en el servicio divino."
+        },
+        {
+          "versiculo": "21-28",
+          "referencia": "Números 3:21-26; 7:7-9",
+          "comentario": "Los gersonitas a cargo de las cortinas y cubiertas enseñan la importancia de cada detalle en la obra de Dios."
+        },
+        {
+          "versiculo": "29-33",
+          "referencia": "Números 3:33-37; 7:8",
+          "comentario": "Los meraritas encargados de las tablas y bases muestran que el trabajo menos visible también es esencial."
+        },
+        {
+          "versiculo": "34-49",
+          "referencia": "Números 3:39; 8:24-25",
+          "comentario": "El censo de los levitas en edad de servicio asegura que haya suficientes obreros para la obra del santuario."
+        }
+      ]
+    },
+    {
+      "capitulo": 5,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Levítico 13:45-46; 2 Crónicas 26:21",
+          "comentario": "La separación de los impuros del campamento enseña la santidad requerida en la comunidad del pacto."
+        },
+        {
+          "versiculo": "5-10",
+          "referencia": "Levítico 6:1-7; Proverbios 28:13",
+          "comentario": "La restitución por los pecados contra el prójimo muestra que el verdadero arrepentimiento incluye reparar el daño."
+        },
+        {
+          "versiculo": "11-31",
+          "referencia": "Proverbios 6:34-35; Juan 8:1-11",
+          "comentario": "La prueba de celos protege a la mujer inocente y revela la verdad, mostrando la justicia divina."
+        }
+      ]
+    },
+    {
+      "capitulo": 6,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Jueces 13:5; 1 Samuel 1:11",
+          "comentario": "El voto de nazareo representa consagración especial a Dios, abstiniéndose de lo lícito para dedicarse a lo espiritual."
+        },
+        {
+          "versiculo": "9-12",
+          "referencia": "Hechos 18:18; 21:23-26",
+          "comentario": "Las provisiones para la impureza accidental muestran la gracia de Dios ante las debilidades humanas."
+        },
+        {
+          "versiculo": "13-21",
+          "referencia": "Hechos 21:23-26; 1 Corintios 9:19-23",
+          "comentario": "Las ofrendas al completar el voto celebran el cumplimiento de la consagración prometida a Dios."
+        },
+        {
+          "versiculo": "22-27",
+          "referencia": "Deuteronomio 28:3-6; Salmo 67:1",
+          "comentario": "La bendición sacerdotal revela el corazón de Dios deseando bendecir, guardar y dar paz a su pueblo."
+        }
+      ]
+    },
+    {
+      "capitulo": 7,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Éxodo 40:17-33; Números 4:1-33",
+          "comentario": "La dedicación del tabernáculo marca el comienzo formal del culto organizado según el patrón divino."
+        },
+        {
+          "versiculo": "10-83",
+          "referencia": "Números 1:4-16; 2:3-31",
+          "comentario": "Las ofrendas idénticas de cada príncipe muestran igualdad ante Dios, aunque con contribuciones individuales."
+        },
+        {
+          "versiculo": "84-88",
+          "referencia": "Éxodo 40:34-38; 1 Reyes 8:10-11",
+          "comentario": "El total de las ofrendas demuestra la generosidad del pueblo cuando sus corazones son movidos por Dios."
+        },
+        {
+          "versiculo": "89",
+          "referencia": "Éxodo 25:22; 33:9-11",
+          "comentario": "Dios habla con Moisés desde el propiciatorio, mostrando la comunión íntima disponible para los que buscan su rostro."
+        }
+      ]
+    },
+    {
+      "capitulo": 8,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Éxodo 25:31-40; 37:17-24",
+          "comentario": "El encendimiento del candelero simboliza a Cristo como luz del mundo y la iglesia como lumbrera en las tinieblas."
+        },
+        {
+          "versiculo": "5-22",
+          "referencia": "Números 3:5-13; Hechos 6:6",
+          "comentario": "La purificación de los levitas los separa para el servicio sagrado, prefigurando la consagración del ministerio cristiano."
+        },
+        {
+          "versiculo": "23-26",
+          "referencia": "Números 4:3; 1 Crónicas 23:24-27",
+          "comentario": "La edad de servicio de los levitas establece principios para el ministerio activo y el servicio de consejería."
+        }
+      ]
+    },
+    {
+      "capitulo": 9,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Éxodo 12:1-28; 2 Crónicas 30:1-5",
+          "comentario": "La celebración de la Pascua en el desierto mantiene viva la memoria de la redención de Egipto."
+        },
+        {
+          "versiculo": "6-14",
+          "referencia": "2 Crónicas 30:17-20; Juan 19:14",
+          "comentario": "La provisión para los impuros muestra la misericordia de Dios que no quiere que nadie se pierda sus fiestas."
+        },
+        {
+          "versiculo": "15-23",
+          "referencia": "Éxodo 40:34-38; Nehemías 9:19",
+          "comentario": "La nube que guía a Israel simboliza la dirección del Espíritu Santo en el caminar del pueblo de Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 10,
+      "versiculos": [
+        {
+          "versiculo": "1-10",
+          "referencia": "Josué 6:4-20; Joel 2:1",
+          "comentario": "Las trompetas de plata son para convocar y guiar, mostrando la importancia de la comunicación clara en la obra de Dios."
+        },
+        {
+          "versiculo": "11-28",
+          "referencia": "Números 2:1-34; 33:1-49",
+          "comentario": "El orden de marcha demuestra que Dios es Dios de orden, y cada tribu tiene su lugar designado."
+        },
+        {
+          "versiculo": "29-32",
+          "referencia": "Jueces 1:16; 4:11",
+          "comentario": "La invitación a Hobab muestra el valor de la experiencia humana junto con la guía divina."
+        },
+        {
+          "versiculo": "33-36",
+          "referencia": "Deuteronomio 1:33; Salmo 68:1-2",
+          "comentario": "El arca yendo delante del pueblo simboliza a Cristo guiando a su iglesia en su peregrinación."
+        }
+      ]
+    },
+    {
+      "capitulo": 11,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Deuteronomio 9:22; 1 Corintios 10:10",
+          "comentario": "El fuego de Tabera castiga la queja, mostrando que Dios toma en serio la ingratitud de su pueblo."
+        },
+        {
+          "versiculo": "4-9",
+          "referencia": "1 Corintios 10:6; Salmo 78:18-31",
+          "comentario": "El anhelo por los alimentos de Egipto revela cómo la nostalgia puede idealizar el pasado de esclavitud."
+        },
+        {
+          "versiculo": "10-15",
+          "referencia": "Éxodo 18:18; Deuteronomio 1:12",
+          "comentario": "La carga abrumadora de Moisés muestra que hasta los grandes siervos de Dios tienen límites humanos."
+        },
+        {
+          "versiculo": "16-25",
+          "referencia": "Éxodo 18:21-26; Hechos 6:1-6",
+          "comentario": "Los setenta ancianos compartiendo el Espíritu demuestran que Dios multiplica el liderazgo cuando es necesario."
+        },
+        {
+          "versiculo": "26-30",
+          "referencia": "Marcos 9:38-40; 1 Corintios 14:39",
+          "comentario": "Eldad y Medad profetizan fuera del campamento, mostrando que el Espíritu no está limitado por estructuras humanas."
+        },
+        {
+          "versiculo": "31-35",
+          "referencia": "Salmo 78:26-31; 106:14-15",
+          "comentario": "La provisión de codornices seguida de plaga enseña que Dios satisface los deseos carnales con consecuencias."
+        }
+      ]
+    },
+    {
+      "capitulo": 12,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Miqueas 6:4; Hebreos 3:1-6",
+          "comentario": "La crítica de Miriam y Aarón a Moisés muestra cómo el celo mal dirigido puede llevar a la rebelión."
+        },
+        {
+          "versiculo": "4-9",
+          "referencia": "Génesis 18:17; Amós 3:7",
+          "comentario": "Dios defiende a Moisés destacando su relación única como siervo fiel en toda su casa."
+        },
+        {
+          "versiculo": "10-16",
+          "referencia": "Deuteronomio 24:8-9; 2 Reyes 5:27",
+          "comentario": "La lepra de Miriam sirve de advertencia sobre las consecuencias de hablar contra los siervos de Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 13,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Deuteronomio 1:22-23; 32:8",
+          "comentario": "El envío de los espías muestra la condescendencia de Dios al permitir la participación humana en sus planes."
+        },
+        {
+          "versiculo": "4-16",
+          "referencia": "Números 34:19; Josué 14:6-7",
+          "comentario": "Los nombres de los espías revelan que Dios escoge líderes de cada tribu para representar a todo el pueblo."
+        },
+        {
+          "versiculo": "17-20",
+          "referencia": "Deuteronomio 1:24-25; 8:7-9",
+          "comentario": "Las instrucciones específicas para los espías enfatizan la bondad de la tierra que Dios ha prometido."
+        },
+        {
+          "versiculo": "21-25",
+          "referencia": "Números 32:9; Deuteronomio 1:24-25",
+          "comentario": "El recorrido de los espías confirma la excelencia de la tierra, pero también los desafíos por delante."
+        },
+        {
+          "versiculo": "26-33",
+          "referencia": "Deuteronomio 1:25-28; Hebreos 3:7-19",
+          "comentario": "El informe mayoritario basado en la vista y el minoritario basado en la fe divide al pueblo."
+        }
+      ]
+    },
+    {
+      "capitulo": 14,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Deuteronomio 1:26-28; Salmo 106:24-25",
+          "comentario": "La rebelión abierta del pueblo muestra cómo la incredulidad puede llevar a preferir la esclavitud sobre la promesa."
+        },
+        {
+          "versiculo": "5-9",
+          "referencia": "Deuteronomio 1:29-33; Josué 14:6-9",
+          "comentario": "Caleb y Josué se mantienen fieles, demostrando que la fe ve a Dios más grande que los obstáculos."
+        },
+        {
+          "versiculo": "10-12",
+          "referencia": "Éxodo 32:9-10; Deuteronomio 9:13-14",
+          "comentario": "La gloria de Dios aparece lista para destruir, pero la intercesión prevalece una vez más."
+        },
+        {
+          "versiculo": "13-19",
+          "referencia": "Éxodo 32:11-14; Salmo 106:23",
+          "comentario": "Moisés intercede basado en el carácter de Dios y su reputación entre las naciones."
+        },
+        {
+          "versiculo": "20-25",
+          "referencia": "Salmo 95:8-11; Hebreos 3:7-11",
+          "comentario": "Dios perdona pero impone consecuencias, enseñando que el pecado afecta el cumplimiento de las promesas."
+        },
+        {
+          "versiculo": "26-35",
+          "referencia": "1 Corintios 10:5; Hebreos 3:17",
+          "comentario": "La sentencia de vagar 40 años asegura que la generación incrédula no entrará en la tierra prometida."
+        },
+        {
+          "versiculo": "36-38",
+          "referencia": "Números 13:31-33; Josué 14:6-10",
+          "comentario": "La muerte de los espías incrédulos contrasta con la preservación de Caleb y Josué."
+        },
+        {
+          "versiculo": "39-45",
+          "referencia": "Deuteronomio 1:41-45; Hebreos 4:6",
+          "comentario": "El intento tardío de obedecer sin la presencia de Dios resulta en derrota segura."
+        }
+      ]
+    },
+    {
+      "capitulo": 15,
+      "versiculos": [
+        {
+          "versiculo": "1-16",
+          "referencia": "Levítico 2:1-16; 6:14-23",
+          "comentario": "Las leyes sobre ofrendas después del juicio muestran que Dios sigue proveyendo gracia para el futuro."
+        },
+        {
+          "versiculo": "17-21",
+          "referencia": "Deuteronomio 26:1-11; Proverbios 3:9-10",
+          "comentario": "La ofrenda de las primicias de la masa enseña a reconocer a Dios como fuente de todo sustento."
+        },
+        {
+          "versiculo": "22-31",
+          "referencia": "Levítico 4:1-35; Hebreos 10:26-27",
+          "comentario": "La distinción entre pecados involuntarios y voluntarios muestra la gracia para los primeros y severidad para los segundos."
+        },
+        {
+          "versiculo": "32-36",
+          "referencia": "Éxodo 31:14-15; 35:2",
+          "comentario": "La pena por quebrantar el sábado deliberadamente enfatiza la santidad del día de reposo."
+        },
+        {
+          "versiculo": "37-41",
+          "referencia": "Deuteronomio 22:12; Mateo 23:5",
+          "comentario": "Los flecos en los vestidos sirven como recordatorio visual de los mandamientos de Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 16,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Salmo 106:16-18; Judas 1:11",
+          "comentario": "La rebelión de Coré cuestiona la autoridad divinamente establecida, mostrando el peligro de la ambición."
+        },
+        {
+          "versiculo": "4-11",
+          "referencia": "1 Samuel 12:3; Hechos 20:33",
+          "comentario": "Moisés defiende su llamado divino y expone la raíz del problema: el deseo de usurpar el sacerdocio."
+        },
+        {
+          "versiculo": "12-14",
+          "referencia": "Éxodo 2:14; Hechos 7:27",
+          "comentario": "La acusación de Datán y Abiram revela amargura acumulada y distorsión de los hechos."
+        },
+        {
+          "versiculo": "15-19",
+          "referencia": "1 Samuel 12:3; Hechos 20:33",
+          "comentario": "La indignación justa de Moisés muestra cuán doloroso es ser malinterpretado cuando se sirve fielmente."
+        },
+        {
+          "versiculo": "20-35",
+          "referencia": "Salmo 106:17-18; Judas 1:11",
+          "comentario": "El juicio divino sobre los rebeldes establece el principio de que Dios defiende a sus siervos escogidos."
+        },
+        {
+          "versiculo": "36-40",
+          "referencia": "Éxodo 30:1-10; Números 17:1-5",
+          "comentario": "El cubrir el altar con las censas transforma el instrumento de rebelión en advertencia perpetua."
+        },
+        {
+          "versiculo": "41-50",
+          "referencia": "Números 14:2; 17:10",
+          "comentario": "La continua murmuración del pueblo muestra cuán difícil es erradicar el espíritu de queja y rebelión."
+        }
+      ]
+    },
+    {
+      "capitulo": 17,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Números 16:36-40; Hebreos 9:4",
+          "comentario": "La prueba de las varas provee evidencia tangible de la elección divina del sacerdocio aarónico."
+        },
+        {
+          "versiculo": "6-11",
+          "referencia": "Hebreos 9:4; Apocalipsis 2:17",
+          "comentario": "La vara de Aarón que florece y da frutos simboliza la vida y productividad del ministerio divinamente ordenado."
+        },
+        {
+          "versiculo": "12-13",
+          "referencia": "Números 1:51; 18:1-7",
+          "comentario": "El temor del pueblo reconoce finalmente la santidad requerida para acercarse a Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 18,
+      "versiculos": [
+        {
+          "versiculo": "1-7",
+          "referencia": "Números 3:5-10; 1 Crónicas 23:28-32",
+          "comentario": "Dios reafirma las responsabilidades sacerdotales y levíticas para prevenir futuras rebeliones."
+        },
+        {
+          "versiculo": "8-20",
+          "referencia": "Levítico 6:14-18; 7:28-36",
+          "comentario": "Las porciones sacerdotales muestran el cuidado de Dios por el sustento de sus ministros."
+        },
+        {
+          "versiculo": "21-24",
+          "referencia": "Números 3:5-13; Nehemías 10:37",
+          "comentario": "El diezmo para los levitas establece el principio del sostenimiento ministerial mediante las ofrendas del pueblo."
+        },
+        {
+          "versiculo": "25-32",
+          "referencia": "Levítico 27:30-33; Malaquías 3:8-10",
+          "comentario": "El diezmo del diezmo enseña que hasta los ministros deben ser fieles en sus ofrendas a Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 19,
+      "versiculos": [
+        {
+          "versiculo": "1-10",
+          "referencia": "Hebreos 9:13-14; 1 Pedro 1:18-19",
+          "comentario": "La vaca alazana sin defecto prefigura a Cristo, cuya muerte purifica de la contaminación del pecado."
+        },
+        {
+          "versiculo": "11-22",
+          "referencia": "Hebreos 9:13-14; 10:22",
+          "comentario": "Las aguas de purificación simbolizan la limpieza espiritual disponible mediante la aplicación de la obra de Cristo."
+        }
+      ]
+    },
+    {
+      "capitulo": 20,
+      "versiculos": [
+        {
+          "versiculo": "1",
+          "referencia": "Números 33:36-38; Deuteronomio 32:50-51",
+          "comentario": "La muerte de Miriam marca el fin de una era y el comienzo de las pruebas finales en el desierto."
+        },
+        {
+          "versiculo": "2-13",
+          "referencia": "Éxodo 17:1-7; Salmo 106:32-33",
+          "comentario": "El pecado de Moisés en Meriba le impide entrar en Canaán, mostrando que Dios juzga aun a sus siervos más fieles."
+        },
+        {
+          "versiculo": "14-21",
+          "referencia": "Deuteronomio 2:1-8; Jueces 11:17",
+          "comentario": "El rechazo de Edom a Israel muestra la amargura fraternal que perdura por generaciones."
+        },
+        {
+          "versiculo": "22-29",
+          "referencia": "Números 33:38; Deuteronomio 10:6",
+          "comentario": "La muerte de Aarón en el monte Hor marca la transición del sacerdocio a la siguiente generación."
+        }
+      ]
+    },
+    {
+      "capitulo": 21,
+      "versiculos": [
+        {
+          "versiculo": "1-3",
+          "referencia": "Deuteronomio 20:1-4; Josué 19:1-8",
+          "comentario": "La primera victoria militar de Israel muestra que cuando cumplen sus votos, Dios les da la victoria."
+        },
+        {
+          "versiculo": "4-9",
+          "referencia": "1 Corintios 10:9; Juan 3:14-15",
+          "comentario": "La serpiente de bronce prefigura a Cristo levantado para sanar a los que miran a él con fe."
+        },
+        {
+          "versiculo": "10-20",
+          "referencia": "Números 33:41-49; Deuteronomio 2:1-23",
+          "comentario": "El viaje hacia la tierra prometida continúa con progresos y victorias bajo la guía divina."
+        },
+        {
+          "versiculo": "21-35",
+          "referencia": "Deuteronomio 2:24-37; 3:1-11",
+          "comentario": "Las victorias sobre Sehón y Og muestran que ningún enemigo puede resistir cuando Dios pelea por su pueblo."
+        }
+      ]
+    },
+    {
+      "capitulo": 22,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Deuteronomio 23:3-6; Josué 24:9-10",
+          "comentario": "El temor de Balac ante Israel demuestra cómo las naciones reconocían el poder divino que los acompañaba."
+        },
+        {
+          "versiculo": "7-14",
+          "referencia": "2 Pedro 2:15-16; Judas 1:11",
+          "comentario": "La primera respuesta de Balaam muestra que conocía lo correcto, pero su corazón codiciaba la recompensa."
+        },
+        {
+          "versiculo": "15-21",
+          "referencia": "2 Pedro 2:15; Judas 1:11",
+          "comentario": "La persistencia de Balac y la ambición de Balaam lo llevan a buscar cómo eludir la voluntad de Dios."
+        },
+        {
+          "versiculo": "22-35",
+          "referencia": "2 Pedro 2:16; Números 31:8",
+          "comentario": "El ángel y la asna muestran que Dios interviene milagrosamente para frustrar los planes de los que se oponen a su pueblo."
+        },
+        {
+          "versiculo": "36-41",
+          "referencia": "Números 23:1-12; 24:1-9",
+          "comentario": "El encuentro con Balac prepara el escenario para las profecías que, contra su voluntad, bendecirán a Israel."
+        }
+      ]
+    },
+    {
+      "capitulo": 23,
+      "versiculos": [
+        {
+          "versiculo": "1-12",
+          "referencia": "Deuteronomio 23:5; Josué 24:9-10",
+          "comentario": "La primera profecía de Balaam declara la bendición irrevocable de Dios sobre su pueblo Israel."
+        },
+        {
+          "versiculo": "13-26",
+          "referencia": "Miqueas 6:5; Romanos 11:29",
+          "comentario": "La segunda profecía reafirma la fidelidad de Dios y su determinación de bendecir a Israel."
+        },
+        {
+          "versiculo": "27-30",
+          "referencia": "Números 24:1; 2 Pedro 2:15",
+          "comentario": "La insistencia de Balac muestra la ceguera espiritual de quien persiste en oponerse a los propósitos de Dios."
+        }
+      ]
+    },
+    {
+      "capitulo": 24,
+      "versiculos": [
+        {
+          "versiculo": "1-9",
+          "referencia": "Génesis 49:9-10; Miqueas 5:2",
+          "comentario": "La tercera profecía anuncia la futura grandeza de Israel y el surgimiento del Mesías."
+        },
+        {
+          "versiculo": "10-14",
+          "referencia": "Números 31:8; Josué 13:22",
+          "comentario": "La furia de Balac y la respuesta de Balaam revelan el conflicto entre la codicia humana y la palabra divina."
+        },
+        {
+          "versiculo": "15-19",
+          "referencia": "Génesis 49:10; Miqueas 5:2",
+          "comentario": "La profecía final anuncia claramente la venida del Mesías que dominará sobre las naciones."
+        },
+        {
+          "versiculo": "20-25",
+          "referencia": "1 Samuel 15:2; Amós 9:12",
+          "comentario": "Las profecías sobre otras naciones muestran el conocimiento sobrenatural de Balaam sobre el futuro divino."
+        }
+      ]
+    },
+    {
+      "capitulo": 25,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "1 Corintios 10:8; Apocalipsis 2:14",
+          "comentario": "La apostasía en Sitim muestra cómo la inmoralidad y la idolatría se entrelazan para apartar al pueblo de Dios."
+        },
+        {
+          "versiculo": "6-9",
+          "referencia": "Salmo 106:28-31; Oseas 9:10",
+          "comentario": "El celo de Finees detiene la plaga, mostrando que la acción decisiva contra el pecado agrada a Dios."
+        },
+        {
+          "versiculo": "10-18",
+          "referencia": "Salmo 106:30-31; 1 Macabeos 2:26",
+          "comentario": "El pacto de paz con Finees establece el sacerdocio perpetuo para su descendencia por su celo santo."
+        }
+      ]
+    },
+    {
+      "capitulo": 26,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Números 1:1-3; 14:29-30",
+          "comentario": "El segundo censo marca el fin de la generación del desierto y la preparación para entrar en Canaán."
+        },
+        {
+          "versiculo": "5-51",
+          "referencia": "Números 1:20-46; 1 Crónicas 27:1-24",
+          "comentario": "El conteo detallado de cada tribu muestra el cuidado de Dios por cada familia en su pueblo."
+        },
+        {
+          "versiculo": "52-56",
+          "referencia": "Josué 14:1-5; 18:1-10",
+          "comentario": "La distribución de la tierra por suerte asegura que sea Dios quien asigne la heredad a cada tribu."
+        },
+        {
+          "versiculo": "57-62",
+          "referencia": "Números 3:14-39; 1 Crónicas 6:1-15",
+          "comentario": "El censo de los levitas confirma su crecimiento a pesar de no recibir heredad como las otras tribus."
+        },
+        {
+          "versiculo": "63-65",
+          "referencia": "Números 14:26-35; 1 Corintios 10:5",
+          "comentario": "El cumplimiento de la sentencia divina muestra que ninguna palabra de Dios queda sin cumplirse."
+        }
+      ]
+    },
+    {
+      "capitulo": 27,
+      "versiculos": [
+        {
+          "versiculo": "1-11",
+          "referencia": "Josué 17:3-6; Job 42:15",
+          "comentario": "Las hijas de Zelofehad establecen un precedente legal que muestra la justicia de Dios hacia las mujeres."
+        },
+        {
+          "versiculo": "12-14",
+          "referencia": "Deuteronomio 3:23-27; 32:48-52",
+          "comentario": "Dios recuerda a Moisés la razón por la cual no entrará en la tierra prometida."
+        },
+        {
+          "versiculo": "15-23",
+          "referencia": "Deuteronomio 31:1-8; Josué 1:1-9",
+          "comentario": "La designación de Josué como sucesor asegura la continuidad del liderazgo bajo la guía divina."
+        }
+      ]
+    },
+    {
+      "capitulo": 28,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Éxodo 29:38-42; Ezequiel 46:13-15",
+          "comentario": "El sacrificio continuo establece la adoración perpetua que debe caracterizar al pueblo de Dios."
+        },
+        {
+          "versiculo": "9-10",
+          "referencia": "Éxodo 20:8-11; Isaías 58:13-14",
+          "comentario": "Las ofrendas del día de reposo enfatizan la santidad especial del séptimo día."
+        },
+        {
+          "versiculo": "11-15",
+          "referencia": "Números 10:10; 1 Samuel 20:5",
+          "comentario": "Los sacrificios de la luna nueva mantienen el ritmo del calendario sagrado dado por Dios."
+        },
+        {
+          "versiculo": "16-25",
+          "referencia": "Éxodo 12:1-28; Levítico 23:5-8",
+          "comentario": "La Pascua y los panes sin levadura conservan la memoria de la redención de Egipto."
+        },
+        {
+          "versiculo": "26-31",
+          "referencia": "Levítico 23:15-21; Hechos 2:1-4",
+          "comentario": "La fiesta de las semanas (Pentecostés) celebra la cosecha y prefigura la efusión del Espíritu."
+        }
+      ]
+    },
+    {
+      "capitulo": 29,
+      "versiculos": [
+        {
+          "versiculo": "1-6",
+          "referencia": "Levítico 23:23-25; Salmo 81:3",
+          "comentario": "La fiesta de las trompetas anuncia tiempos solemnes y llama al pueblo a la preparación espiritual."
+        },
+        {
+          "versiculo": "7-11",
+          "referencia": "Levítico 16:1-34; 23:26-32",
+          "comentario": "El día de la expiación representa el juicio y la purificación completa del pecado."
+        },
+        {
+          "versiculo": "12-40",
+          "referencia": "Levítico 23:33-43; Deuteronomio 16:13-15",
+          "comentario": "La fiesta de los tabernáculos celebra la provisión divina en el desierto y la cosecha final."
+        }
+      ]
+    },
+    {
+      "capitulo": 30,
+      "versiculos": [
+        {
+          "versiculo": "1-2",
+          "referencia": "Deuteronomio 23:21-23; Eclesiastés 5:4-5",
+          "comentario": "La seriedad de los votos enseña la importancia de la integridad en las promesas hechas a Dios."
+        },
+        {
+          "versiculo": "3-16",
+          "referencia": "1 Corintios 11:3; Efesios 5:22-24",
+          "comentario": "Las provisiones para los votos de las mujeres muestran el orden divino en las relaciones familiares."
+        }
+      ]
+    },
+    {
+      "capitulo": 31,
+      "versiculos": [
+        {
+          "versiculo": "1-12",
+          "referencia": "Números 25:16-18; 2 Pedro 2:15",
+          "comentario": "La guerra contra Madián ejecuta el juicio divino por haber seducido a Israel a idolatría."
+        },
+        {
+          "versiculo": "13-24",
+          "referencia": "Deuteronomio 20:10-14; 21:10-14",
+          "comentario": "Las instrucciones sobre el botín y la purificación enseñan principios de guerra santa y santidad."
+        },
+        {
+          "versiculo": "25-47",
+          "referencia": "Números 18:8-20; 1 Samuel 30:24-25",
+          "comentario": "La distribución del botín reconoce el valor de los que van a la batalla y los que quedan guardando."
+        },
+        {
+          "versiculo": "48-54",
+          "referencia": "Éxodo 30:11-16; 2 Samuel 8:11-12",
+          "comentario": "La ofrenda voluntaria de los comandantes muestra gratitud por la protección divina en la batalla."
+        }
+      ]
+    },
+    {
+      "capitulo": 32,
+      "versiculos": [
+        {
+          "versiculo": "1-5",
+          "referencia": "Números 21:31-35; Deuteronomio 3:12-17",
+          "comentario": "La petición de Rubén y Gad muestra cómo las posesiones materiales pueden afectar las decisiones espirituales."
+        },
+        {
+          "versiculo": "6-15",
+          "referencia": "Números 13:31-33; 14:1-4",
+          "comentario": "La respuesta de Moisés teme que se repita el error de los espías y desanime al pueblo."
+        },
+        {
+          "versiculo": "16-27",
+          "referencia": "Josué 1:12-18; 4:12-13",
+          "comentario": "El compromiso de las tribus de luchar hasta que todas posean su heredad muestra unidad y responsabilidad."
+        },
+        {
+          "versiculo": "28-42",
+          "referencia": "Deuteronomio 3:12-17; Josué 13:8-32",
+          "comentario": "La asignación de la tierra al oriente del Jordán establece el patrón para la distribución futura."
+        }
+      ]
+    },
+    {
+      "capitulo": 33,
+      "versiculos": [
+        {
+          "versiculo": "1-49",
+          "referencia": "Éxodo 12:37-19:2; Deuteronomio 1:1-46",
+          "comentario": "El registro detallado de las jornadas muestra la fidelidad de Dios guiando a su pueblo a través del desierto."
+        },
+        {
+          "versiculo": "50-56",
+          "referencia": "Deuteronomio 7:1-5; Josué 23:1-16",
+          "comentario": "Las instrucciones finales para poseer la tierra enfatizan la necesidad de expulsar completamente a los cananeos."
+        }
+      ]
+    },
+    {
+      "capitulo": 34,
+      "versiculos": [
+        {
+          "versiculo": "1-15",
+          "referencia": "Génesis 15:18-21; Josué 14:1-5",
+          "comentario": "Los límites de la tierra prometida definen el territorio del reino terrenal de Israel según el pacto."
+        },
+        {
+          "versiculo": "16-29",
+          "referencia": "Números 1:4-16; Josué 14:1",
+          "comentario": "Los príncipes designados para repartir la tierra aseguran una distribución justa y ordenada."
+        }
+      ]
+    },
+    {
+      "capitulo": 35,
+      "versiculos": [
+        {
+          "versiculo": "1-8",
+          "referencia": "Josué 21:1-42; 1 Crónicas 6:54-81",
+          "comentario": "Las ciudades para los levitas aseguran su dispersión por toda la tierra para enseñar la ley."
+        },
+        {
+          "versiculo": "9-15",
+          "referencia": "Deuteronomio 4:41-43; 19:1-13",
+          "comentario": "Las ciudades de refugio proveen misericordia y justicia para los homicidas involuntarios."
+        },
+        {
+          "versiculo": "16-34",
+          "referencia": "Génesis 9:6; Éxodo 21:12-14",
+          "comentario": "Las leyes sobre homicidio distinguen entre asesinato y homicidio accidental, protegiendo la vida humana."
+        }
+      ]
+    },
+    {
+      "capitulo": 36,
+      "versiculos": [
+        {
+          "versiculo": "1-4",
+          "referencia": "Números 27:1-11; Josué 17:3-6",
+          "comentario": "La preocupación por la heredad de las hijas de Zelofehad muestra el cuidado por la integridad tribal."
+        },
+        {
+          "versiculo": "5-12",
+          "referencia": "1 Crónicas 23:22; Esdras 2:61",
+          "comentario": "La solución de casarse dentro de la tribu preserva la distribución original de la tierra."
+        },
+        {
+          "versiculo": "13",
+          "referencia": "Levítico 27:34; Deuteronomio 4:1-2",
+          "comentario": "El libro termina con el recordatorio de que estos mandamientos fueron dados por Dios a Israel."
+        }
+      ]
+    }
+  ]
+}

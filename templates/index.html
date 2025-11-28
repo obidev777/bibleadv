@@ -1,0 +1,1628 @@
+﻿<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Biblia Digital</title>
+    <link rel="icon" type="image/x-icon" href="/favicon.ico">
+    <meta name="theme-color" content="#2c3e50">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+    <style>
+        :root {
+            --primary-color: #2c3e50;
+            --secondary-color: #3498db;
+            --accent-color: #e74c3c;
+            --light-color: #ecf0f1;
+            --dark-color: #2c3e50;
+            --text-color: #333;
+            --border-radius: 12px;
+            --box-shadow: 0 4px 12px rgba(0, 0, 0, 0.15);
+            --transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
+            --old-testament-color: #8e44ad;
+            --new-testament-color: #27ae60;
+        }
+
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            -webkit-tap-highlight-color: transparent;
+        }
+
+        body {
+            font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, sans-serif;
+            line-height: 1.6;
+            color: var(--text-color);
+            background: #f8f9fa;
+            min-height: 100vh;
+            padding: env(safe-area-inset-top) env(safe-area-inset-right) env(safe-area-inset-bottom) env(safe-area-inset-left);
+        }
+
+        /* Header estilo Android */
+        .app-header {
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 16px;
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            z-index: 1000;
+            box-shadow: 0 2px 10px rgba(0,0,0,0.1);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            height: 60px;
+        }
+
+        .header-content {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            flex: 1;
+        }
+
+        .logo {
+            font-size: 1.4rem;
+            font-weight: 600;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .logo-icon {
+            font-size: 1.6rem;
+        }
+
+        .book-selector {
+            flex: 1;
+            max-width: 200px;
+        }
+
+        .book-select {
+            width: 100%;
+            padding: 8px 12px;
+            border: none;
+            border-radius: 20px;
+            background: rgba(255,255,255,0.9);
+            font-size: 0.9rem;
+            appearance: none;
+            background-image: url("data:image/svg+xml;charset=US-ASCII,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 4 5'><path fill='%23333' d='M2 0L0 2h4zm0 5L0 3h4z'/></svg>");
+            background-repeat: no-repeat;
+            background-position: right 12px center;
+            background-size: 8px;
+        }
+
+        .search-btn, .cba-btn {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.2rem;
+            padding: 8px;
+            border-radius: 50%;
+            cursor: pointer;
+            transition: var(--transition);
+        }
+
+            .search-btn:hover, .search-btn:active,
+            .cba-btn:hover, .cba-btn:active {
+                background: rgba(255,255,255,0.1);
+            }
+
+        /* Main content */
+        .main-content {
+            margin-top: 60px;
+            margin-bottom: 70px;
+            padding: 16px;
+            min-height: calc(100vh - 130px);
+        }
+
+        /* Navigation Bar estilo Android */
+        .nav-bar {
+            position: fixed;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: white;
+            border-top: 1px solid #e0e0e0;
+            display: flex;
+            padding: 8px 16px;
+            gap: 8px;
+            z-index: 1000;
+            height: 70px;
+        }
+
+        .nav-btn {
+            flex: 1;
+            background: var(--secondary-color);
+            color: white;
+            border: none;
+            border-radius: var(--border-radius);
+            padding: 12px 8px;
+            cursor: pointer;
+            transition: var(--transition);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 6px;
+            font-weight: 500;
+            font-size: 0.9rem;
+            box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+        }
+
+            .nav-btn:active {
+                transform: scale(0.98);
+                box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+            }
+
+            .nav-btn:disabled {
+                background: #bdc3c7;
+                cursor: not-allowed;
+                transform: none;
+                box-shadow: none;
+            }
+
+        /* Chapter selector */
+        .chapter-selector {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 16px;
+            margin-bottom: 16px;
+            box-shadow: var(--box-shadow);
+            display: flex;
+            align-items: center;
+            gap: 12px;
+        }
+
+        .chapter-label {
+            font-weight: 600;
+            color: var(--primary-color);
+            font-size: 1rem;
+        }
+
+        .chapter-select {
+            flex: 1;
+            padding: 10px 12px;
+            border: 2px solid #e1e8ed;
+            border-radius: var(--border-radius);
+            background: white;
+            font-size: 1rem;
+            transition: var(--transition);
+        }
+
+            .chapter-select:focus {
+                border-color: var(--secondary-color);
+                outline: none;
+            }
+
+        /* Bible content */
+        .bible-content {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            padding: 20px;
+            margin-bottom: 16px;
+        }
+
+        .bible-title {
+            font-size: 1.4rem;
+            color: var(--primary-color);
+            font-weight: 700;
+            margin-bottom: 16px;
+            text-align: center;
+            border-bottom: 2px solid var(--light-color);
+            padding-bottom: 12px;
+        }
+
+        .verses-container {
+            line-height: 1.8;
+            font-size: 1.1rem;
+        }
+
+        .verse {
+            margin-bottom: 1.2rem;
+            padding: 12px;
+            border-radius: var(--border-radius);
+            transition: var(--transition);
+            cursor: pointer;
+            border-left: 4px solid transparent;
+            position: relative;
+        }
+
+            .verse:active {
+                background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+                border-left-color: var(--secondary-color);
+                transform: translateX(2px);
+            }
+
+            .verse.active {
+                background: linear-gradient(135deg, #e3f2fd, #bbdefb);
+                border-left-color: var(--accent-color);
+            }
+
+        .verse-number {
+            font-weight: bold;
+            color: var(--secondary-color);
+            margin-right: 8px;
+            font-size: 0.9rem;
+            background: var(--light-color);
+            padding: 4px 8px;
+            border-radius: 20px;
+            min-width: 26px;
+            display: inline-block;
+            text-align: center;
+        }
+
+        .verse-text {
+            color: #2d3748;
+        }
+
+        /* Modal para comentarios y referencias */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.7);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            z-index: 2000;
+            padding: 16px;
+            opacity: 0;
+            visibility: hidden;
+            transition: all 0.3s ease;
+            backdrop-filter: blur(5px);
+        }
+
+            .modal-overlay.active {
+                opacity: 1;
+                visibility: visible;
+            }
+
+        .modal {
+            background: white;
+            border-radius: var(--border-radius);
+            box-shadow: 0 20px 40px rgba(0,0,0,0.3);
+            width: 100%;
+            max-width: 500px;
+            max-height: 80vh;
+            overflow: hidden;
+            transform: translateY(30px);
+            transition: transform 0.4s ease;
+        }
+
+        .modal-overlay.active .modal {
+            transform: translateY(0);
+        }
+
+        .modal-header {
+            background: linear-gradient(135deg, var(--primary-color), var(--secondary-color));
+            color: white;
+            padding: 1.2rem;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .modal-title {
+            font-size: 1.2rem;
+            font-weight: 600;
+        }
+
+        .modal-close {
+            background: none;
+            border: none;
+            color: white;
+            font-size: 1.4rem;
+            cursor: pointer;
+            padding: 4px;
+            border-radius: 50%;
+            width: 32px;
+            height: 32px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            transition: var(--transition);
+        }
+
+            .modal-close:active {
+                background: rgba(255,255,255,0.2);
+            }
+
+        .modal-tabs {
+            display: flex;
+            border-bottom: 2px solid var(--light-color);
+        }
+
+        .modal-tab {
+            flex: 1;
+            padding: 1rem;
+            text-align: center;
+            background: none;
+            border: none;
+            font-size: 0.95rem;
+            font-weight: 600;
+            cursor: pointer;
+            transition: var(--transition);
+            color: var(--dark-color);
+        }
+
+            .modal-tab.active {
+                color: var(--secondary-color);
+                border-bottom: 3px solid var(--secondary-color);
+            }
+
+        .modal-content {
+            padding: 1.2rem;
+            max-height: 400px;
+            overflow-y: auto;
+        }
+
+        .tab-content {
+            display: none;
+        }
+
+            .tab-content.active {
+                display: block;
+                animation: fadeIn 0.3s ease;
+            }
+
+        @keyframes fadeIn {
+            from {
+                opacity: 0;
+                transform: translateY(10px);
+            }
+
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .commentary-text {
+            line-height: 1.7;
+            font-size: 1rem;
+        }
+
+        .reference-item {
+            padding: 12px;
+            margin-bottom: 10px;
+            border-radius: var(--border-radius);
+            background: #f8f9fa;
+            cursor: pointer;
+            transition: var(--transition);
+            border-left: 4px solid var(--secondary-color);
+        }
+
+            .reference-item:active {
+                background: #e3f2fd;
+                transform: translateX(2px);
+            }
+
+        .reference-text {
+            font-weight: 600;
+            color: var(--primary-color);
+            margin-bottom: 5px;
+        }
+
+        .reference-verse {
+            color: #666;
+            font-style: italic;
+            font-size: 0.9rem;
+        }
+
+        /* Search modal */
+        .search-modal {
+            background: white;
+            border-radius: var(--border-radius);
+            padding: 1.2rem;
+            width: 100%;
+            max-width: 500px;
+        }
+
+        .search-input-modal {
+            width: 100%;
+            padding: 12px 16px;
+            border: 2px solid #e1e8ed;
+            border-radius: var(--border-radius);
+            font-size: 1rem;
+            margin-bottom: 12px;
+            transition: var(--transition);
+        }
+
+            .search-input-modal:focus {
+                border-color: var(--secondary-color);
+                outline: none;
+            }
+
+        .search-results {
+            max-height: 300px;
+            overflow-y: auto;
+        }
+
+        .result-item {
+            padding: 12px;
+            border-bottom: 1px solid #eee;
+            transition: var(--transition);
+            cursor: pointer;
+            border-radius: var(--border-radius);
+        }
+
+            .result-item:active {
+                background: #f8f9fa;
+                transform: translateX(2px);
+            }
+
+        .result-reference {
+            font-weight: bold;
+            color: var(--secondary-color);
+            font-size: 1rem;
+        }
+
+        .result-text {
+            margin-top: 6px;
+            color: #555;
+            font-size: 0.95rem;
+        }
+
+        .highlight {
+            background-color: #ffeaa7;
+            padding: 2px 4px;
+            border-radius: 4px;
+            font-weight: 600;
+        }
+
+        /* CBA Append Styles */
+        .cba-section {
+            margin-bottom: 20px;
+            padding: 15px;
+            background: #f8f9fa;
+            border-radius: var(--border-radius);
+            border-left: 4px solid var(--old-testament-color);
+        }
+
+            .cba-section.new-testament {
+                border-left-color: var(--new-testament-color);
+            }
+
+        .cba-title {
+            font-size: 1.3rem;
+            color: var(--primary-color);
+            margin-bottom: 10px;
+            font-weight: 600;
+        }
+
+        .cba-subtitle {
+            font-size: 1.1rem;
+            color: var(--secondary-color);
+            margin: 15px 0 10px 0;
+            font-weight: 600;
+        }
+
+        .cba-cita {
+            background: white;
+            padding: 12px;
+            margin: 10px 0;
+            border-radius: var(--border-radius);
+            border-left: 3px solid #3498db;
+        }
+
+        .cba-texto {
+            line-height: 1.6;
+            margin-bottom: 8px;
+        }
+
+        .cba-referencia {
+            font-style: italic;
+            color: #666;
+            font-size: 0.9rem;
+            text-align: right;
+        }
+
+        .cba-descripcion {
+            font-size: 0.95rem;
+            color: #555;
+            margin-bottom: 15px;
+            line-height: 1.5;
+        }
+
+        .cba-introduccion {
+            background: #e8f4fd;
+            padding: 15px;
+            border-radius: var(--border-radius);
+            margin-bottom: 15px;
+            font-style: italic;
+            border-left: 3px solid #3498db;
+        }
+
+        /* Loading states */
+        .loading {
+            text-align: center;
+            padding: 2rem;
+            color: var(--secondary-color);
+            font-size: 1rem;
+        }
+
+        .loading-spinner {
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid var(--secondary-color);
+            border-radius: 50%;
+            width: 30px;
+            height: 30px;
+            animation: spin 1s linear infinite;
+            margin: 0 auto 1rem;
+        }
+
+        @keyframes spin {
+            0% {
+                transform: rotate(0deg);
+            }
+
+            100% {
+                transform: rotate(360deg);
+            }
+        }
+
+        /* Toast */
+        .toast {
+            position: fixed;
+            bottom: 80px;
+            left: 50%;
+            transform: translateX(-50%) translateY(100px);
+            background: var(--primary-color);
+            color: white;
+            padding: 12px 20px;
+            border-radius: var(--border-radius);
+            box-shadow: var(--box-shadow);
+            opacity: 0;
+            transition: all 0.3s ease;
+            z-index: 3000;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            max-width: 90%;
+        }
+
+            .toast.show {
+                transform: translateX(-50%) translateY(0);
+                opacity: 1;
+            }
+
+        /* Empty state */
+        .empty-state {
+            text-align: center;
+            padding: 3rem 1rem;
+            color: #666;
+        }
+
+        .empty-state-icon {
+            font-size: 3rem;
+            margin-bottom: 1rem;
+            opacity: 0.5;
+        }
+
+        /* Scrollbar */
+        ::-webkit-scrollbar {
+            width: 6px;
+        }
+
+        ::-webkit-scrollbar-track {
+            background: #f1f1f1;
+            border-radius: 10px;
+        }
+
+        ::-webkit-scrollbar-thumb {
+            background: var(--secondary-color);
+            border-radius: 10px;
+        }
+
+            ::-webkit-scrollbar-thumb:hover {
+                background: var(--primary-color);
+            }
+
+        /* Desktop improvements */
+        @media (min-width: 768px) {
+            .app-header {
+                padding: 12px 24px;
+            }
+
+            .main-content {
+                padding: 24px;
+                max-width: 800px;
+                margin-left: auto;
+                margin-right: auto;
+            }
+
+            .nav-bar {
+                padding: 12px 24px;
+            }
+
+            .nav-btn {
+                padding: 14px 12px;
+                font-size: 1rem;
+            }
+
+            .verse:hover {
+                background: linear-gradient(135deg, #f8f9fa, #e9ecef);
+                border-left-color: var(--secondary-color);
+                transform: translateX(5px);
+            }
+
+            .reference-item:hover {
+                background: #e3f2fd;
+                transform: translateX(5px);
+            }
+
+            .result-item:hover {
+                background: #f8f9fa;
+                transform: translateX(5px);
+            }
+
+            .search-btn:hover, .cba-btn:hover {
+                background: rgba(255,255,255,0.1);
+            }
+
+            .modal-close:hover {
+                background: rgba(255,255,255,0.2);
+            }
+        }
+
+        /* Safe area for notch phones */
+        @supports (padding: max(0px)) {
+            .main-content {
+                padding-left: max(16px, env(safe-area-inset-left));
+                padding-right: max(16px, env(safe-area-inset-right));
+            }
+
+            .nav-bar {
+                padding-left: max(16px, env(safe-area-inset-left));
+                padding-right: max(16px, env(safe-area-inset-right));
+            }
+        }
+    </style>
+</head>
+<body>
+    <!-- Header estilo Android -->
+    <header class="app-header">
+        <div class="header-content">
+            <div class="logo">
+                <span class="logo-icon">📖</span>
+            </div>
+            <div class="book-selector">
+                <select class="book-select" id="bookSelect">
+                    <option value="">Selecciona libro</option>
+                </select>
+            </div>
+            <button class="cba-btn" id="cbaToggle" title="CBA Append">📚</button>
+            <button class="search-btn" id="searchToggle" title="Buscar">🔍</button>
+        </div>
+    </header>
+
+    <!-- Main Content -->
+    <main class="main-content">
+        <!-- Chapter Selector -->
+        <div class="chapter-selector" id="chapterSelector" style="display: none;">
+            <span class="chapter-label">Capítulo:</span>
+            <select class="chapter-select" id="chapterSelect">
+                <option value="">Selecciona capítulo</option>
+            </select>
+        </div>
+
+        <!-- Bible Content -->
+        <div class="bible-content" id="bibleContent" style="display: none;">
+            <h1 class="bible-title" id="bibleTitle">Selecciona un pasaje</h1>
+            <div class="verses-container" id="versesContainer">
+                <div class="loading" id="loadingMessage">
+                    <div class="loading-spinner"></div>
+                    Cargando...
+                </div>
+            </div>
+        </div>
+
+        <!-- CBA Append Content -->
+        <div class="bible-content" id="cbaContent" style="display: none;">
+            <h1 class="bible-title">Comentario Bíblico Adventista</h1>
+            <div id="cbaContainer">
+                <div class="loading">
+                    <div class="loading-spinner"></div>
+                    Cargando comentarios...
+                </div>
+            </div>
+        </div>
+
+        <!-- Empty State -->
+        <div class="empty-state" id="emptyState">
+            <div class="empty-state-icon">📖</div>
+            <h3>Biblia Digital</h3>
+            <p>Selecciona un libro para comenzar a leer</p>
+        </div>
+    </main>
+
+    <!-- Navigation Bar estilo Android -->
+    <nav class="nav-bar">
+        <button class="nav-btn" id="prevChapter" disabled>
+            <span>◀</span> Anterior
+        </button>
+        <button class="nav-btn" id="nextChapter" disabled>
+            Siguiente <span>▶</span>
+        </button>
+    </nav>
+
+    <!-- Modal para comentarios y referencias -->
+    <div class="modal-overlay" id="commentaryModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title" id="modalTitle">Comentario</h3>
+                <button class="modal-close" id="modalClose">×</button>
+            </div>
+            <div class="modal-tabs">
+                <button class="modal-tab active" data-tab="commentary">Comentario</button>
+                <button class="modal-tab" data-tab="references">Referencias</button>
+            </div>
+            <div class="modal-content">
+                <div class="tab-content active" id="commentaryTab">
+                    <div class="commentary-text" id="commentaryText">
+                        Cargando comentario...
+                    </div>
+                </div>
+                <div class="tab-content" id="referencesTab">
+                    <div id="referencesList">
+                        Cargando referencias...
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para búsqueda -->
+    <div class="modal-overlay" id="searchModal">
+        <div class="search-modal">
+            <div class="modal-header">
+                <h3 class="modal-title">Buscar en la Biblia</h3>
+                <button class="modal-close" id="searchModalClose">×</button>
+            </div>
+            <input type="text" class="search-input-modal" id="searchInputModal" placeholder="Escribe tu búsqueda...">
+            <div class="search-results" id="searchResults">
+                <div class="empty-state">
+                    <div class="empty-state-icon">🔍</div>
+                    <p>Escribe algo para buscar</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Modal para versículo de referencia -->
+    <div class="modal-overlay" id="referenceModal">
+        <div class="modal">
+            <div class="modal-header">
+                <h3 class="modal-title" id="referenceModalTitle">Referencia</h3>
+                <button class="modal-close" id="referenceModalClose">×</button>
+            </div>
+            <div class="modal-content">
+                <div class="verse" id="referenceVerseContent">
+                    Cargando versículo...
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Toast (oculto por defecto) -->
+    <div class="toast" id="saveToast" style="display: none;">
+        <span>✅</span>
+        <span>Progreso guardado</span>
+    </div>
+
+    <script>
+        // Variables globales
+        let currentBook = '';
+        let currentChapter = '';
+        let currentVerse = '';
+        let books = { "Antiguo Testamento": [], "Nuevo Testamento": [] };
+        let chapters = [];
+        let verses = {};
+        let cbaData = {};
+        let lastSaveTime = 0;
+        const SAVE_COOLDOWN = 5000; // 5 segundos entre guardados
+        let currentView = 'bible'; // 'bible' or 'cba'
+
+        // Elementos DOM
+        const bookSelect = document.getElementById('bookSelect');
+        const chapterSelect = document.getElementById('chapterSelect');
+        const chapterSelector = document.getElementById('chapterSelector');
+        const bibleContent = document.getElementById('bibleContent');
+        const cbaContent = document.getElementById('cbaContent');
+        const bibleTitle = document.getElementById('bibleTitle');
+        const versesContainer = document.getElementById('versesContainer');
+        const cbaContainer = document.getElementById('cbaContainer');
+        const loadingMessage = document.getElementById('loadingMessage');
+        const emptyState = document.getElementById('emptyState');
+        const prevChapterBtn = document.getElementById('prevChapter');
+        const nextChapterBtn = document.getElementById('nextChapter');
+        const searchToggle = document.getElementById('searchToggle');
+        const cbaToggle = document.getElementById('cbaToggle');
+        const saveToast = document.getElementById('saveToast');
+
+        // Elementos del modal
+        const commentaryModal = document.getElementById('commentaryModal');
+        const modalTitle = document.getElementById('modalTitle');
+        const modalClose = document.getElementById('modalClose');
+        const modalTabs = document.querySelectorAll('.modal-tab');
+        const tabContents = document.querySelectorAll('.tab-content');
+        const commentaryText = document.getElementById('commentaryText');
+        const referencesList = document.getElementById('referencesList');
+
+        // Elementos del modal de búsqueda
+        const searchModal = document.getElementById('searchModal');
+        const searchModalClose = document.getElementById('searchModalClose');
+        const searchInputModal = document.getElementById('searchInputModal');
+        const searchResultsContainer = document.getElementById('searchResults');
+
+        // Elementos del modal de referencia
+        const referenceModal = document.getElementById('referenceModal');
+        const referenceModalTitle = document.getElementById('referenceModalTitle');
+        const referenceModalClose = document.getElementById('referenceModalClose');
+        const referenceVerseContent = document.getElementById('referenceVerseContent');
+
+        // Inicialización
+        document.addEventListener('DOMContentLoaded', function () {
+            loadBooks();
+            loadCBAAppend();
+            setupEventListeners();
+        });
+
+        // Configurar event listeners
+        function setupEventListeners() {
+            // Navegación
+            bookSelect.addEventListener('change', handleBookChange);
+            chapterSelect.addEventListener('change', handleChapterChange);
+
+            // Navegación entre capítulos
+            prevChapterBtn.addEventListener('click', goToPrevChapter);
+            nextChapterBtn.addEventListener('click', goToNextChapter);
+
+            // Búsqueda y CBA
+            searchToggle.addEventListener('click', openSearchModal);
+            cbaToggle.addEventListener('click', toggleCBAView);
+            searchModalClose.addEventListener('click', closeSearchModal);
+            searchInputModal.addEventListener('input', debounce(performSearch, 300));
+
+            // Modales
+            modalClose.addEventListener('click', closeCommentaryModal);
+            referenceModalClose.addEventListener('click', closeReferenceModal);
+
+            // Tabs del modal
+            modalTabs.forEach(tab => {
+                tab.addEventListener('click', function () {
+                    switchTab(this.dataset.tab);
+                });
+            });
+
+            // Cerrar modales al hacer clic fuera
+            commentaryModal.addEventListener('click', function (e) {
+                if (e.target === this) closeCommentaryModal();
+            });
+
+            referenceModal.addEventListener('click', function (e) {
+                if (e.target === this) closeReferenceModal();
+            });
+
+            searchModal.addEventListener('click', function (e) {
+                if (e.target === this) closeSearchModal();
+            });
+
+            // Tecla ESC para cerrar modales
+            document.addEventListener('keydown', function (e) {
+                if (e.key === 'Escape') {
+                    closeCommentaryModal();
+                    closeReferenceModal();
+                    closeSearchModal();
+                }
+            });
+        }
+
+        // Debounce para búsqueda
+        function debounce(func, wait) {
+            let timeout;
+            return function executedFunction(...args) {
+                const later = () => {
+                    clearTimeout(timeout);
+                    func(...args);
+                };
+                clearTimeout(timeout);
+                timeout = setTimeout(later, wait);
+            };
+        }
+
+        // Cargar libros desde el servidor
+        async function loadBooks() {
+            try {
+                showLoading();
+                const response = await fetch('/libros');
+                if (!response.ok) throw new Error('Error en la respuesta del servidor');
+
+                books = await response.json();
+
+                bookSelect.innerHTML = '<option value="">Selecciona libro</option>';
+
+                // Agregar optgroups para Antiguo y Nuevo Testamento
+                const oldTestamentGroup = document.createElement('optgroup');
+                oldTestamentGroup.label = 'Antiguo Testamento';
+                books["Antiguo Testamento"].forEach(book => {
+                    const option = document.createElement('option');
+                    option.value = book;
+                    option.textContent = book;
+                    oldTestamentGroup.appendChild(option);
+                });
+                bookSelect.appendChild(oldTestamentGroup);
+
+                const newTestamentGroup = document.createElement('optgroup');
+                newTestamentGroup.label = 'Nuevo Testamento';
+                books["Nuevo Testamento"].forEach(book => {
+                    const option = document.createElement('option');
+                    option.value = book;
+                    option.textContent = book;
+                    newTestamentGroup.appendChild(option);
+                });
+                bookSelect.appendChild(newTestamentGroup);
+
+                hideLoading();
+
+                // Cargar progreso o empezar desde Génesis 1:1
+                await loadProgressOrDefault();
+
+            } catch (error) {
+                console.error('Error al cargar libros:', error);
+                showError('Error al cargar los libros. Verifica que el servidor esté funcionando.');
+            }
+        }
+
+        // Cargar CBA Append
+        async function loadCBAAppend() {
+            try {
+                const response = await fetch('/cba_append');
+                if (!response.ok) throw new Error('Error cargando CBA Append');
+
+                cbaData = await response.json();
+                console.log('CBA Append cargado:', Object.keys(cbaData).length, 'documentos');
+            } catch (error) {
+                console.error('Error cargando CBA Append:', error);
+            }
+        }
+
+        // Alternar entre vista Biblia y CBA
+        function toggleCBAView() {
+            if (currentView === 'bible') {
+                currentView = 'cba';
+                showCBAView();
+                cbaToggle.style.background = 'rgba(255,255,255,0.2)';
+            } else {
+                currentView = 'bible';
+                showBibleView();
+                cbaToggle.style.background = 'none';
+            }
+        }
+
+        function showCBAView() {
+            bibleContent.style.display = 'none';
+            cbaContent.style.display = 'block';
+            chapterSelector.style.display = 'none';
+            emptyState.style.display = 'none';
+            displayCBAAppend();
+        }
+
+        function showBibleView() {
+            cbaContent.style.display = 'none';
+            if (currentBook && currentChapter) {
+                bibleContent.style.display = 'block';
+                chapterSelector.style.display = 'flex';
+            } else {
+                showEmptyState();
+            }
+        }
+
+        // Mostrar CBA Append
+        function displayCBAAppend() {
+            cbaContainer.innerHTML = '';
+
+            if (Object.keys(cbaData).length === 0) {
+                cbaContainer.innerHTML = '<div class="empty-state"><p>No hay datos del CBA disponibles</p></div>';
+                return;
+            }
+
+            for (const [docTitle, docData] of Object.entries(cbaData)) {
+                const section = document.createElement('div');
+                section.className = 'cba-section';
+
+                let html = `
+                        <h2 class="cba-title">${docData.titulo_espanol || docTitle}</h2>
+                        <div class="cba-descripcion">${docData.descripcion || ''}</div>
+                    `;
+
+                if (docData.apendices) {
+                    for (const [apendiceKey, apendiceData] of Object.entries(docData.apendices)) {
+                        html += `
+                                <div class="cba-subtitle">${apendiceKey}: ${apendiceData.titulo}</div>
+                            `;
+
+                        if (apendiceData.introduccion) {
+                            html += `<div class="cba-introduccion">${apendiceData.introduccion}</div>`;
+                        }
+
+                        // Procesar secciones
+                        if (apendiceData.secciones) {
+                            for (const [seccionKey, seccionData] of Object.entries(apendiceData.secciones)) {
+                                html += `<h3 class="cba-subtitle">${seccionKey}. ${seccionData.titulo}</h3>`;
+
+                                if (seccionData.citas) {
+                                    seccionData.citas.forEach(cita => {
+                                        html += `
+                                                <div class="cba-cita">
+                                                    <div class="cba-texto">${cita.texto}</div>
+                                                    <div class="cba-referencia">${cita.referencia}</div>
+                                                </div>
+                                            `;
+                                    });
+                                }
+                            }
+                        }
+
+                        // Procesar partes (para apéndices con estructura más compleja)
+                        if (apendiceData.partes) {
+                            for (const [parteKey, parteData] of Object.entries(apendiceData.partes)) {
+                                html += `<h3 class="cba-subtitle">${parteKey}: ${parteData.titulo}</h3>`;
+
+                                if (parteData.secciones) {
+                                    for (const [seccionKey, seccionData] of Object.entries(parteData.secciones)) {
+                                        html += `<h4 class="cba-subtitle">${seccionKey}. ${seccionData.titulo}</h4>`;
+
+                                        if (seccionData.citas) {
+                                            seccionData.citas.forEach(cita => {
+                                                html += `
+                                                        <div class="cba-cita">
+                                                            <div class="cba-texto">${cita.texto}</div>
+                                                            <div class="cba-referencia">${cita.referencia}</div>
+                                                        </div>
+                                                    `;
+                                            });
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+                }
+
+                // Notas finales
+                if (docData.notas_finales) {
+                    html += `<div class="cba-subtitle">Notas</div>`;
+                    for (const [notaKey, notaTexto] of Object.entries(docData.notas_finales)) {
+                        html += `<div class="cba-cita"><div class="cba-texto">${notaTexto}</div></div>`;
+                    }
+                }
+
+                section.innerHTML = html;
+                cbaContainer.appendChild(section);
+            }
+        }
+
+        // Cargar progreso o empezar desde el principio
+        async function loadProgressOrDefault() {
+            try {
+                const progress = JSON.parse(localStorage.getItem('bibleProgress'));
+
+                if (progress && progress.book &&
+                    (books["Antiguo Testamento"].includes(progress.book) ||
+                        books["Nuevo Testamento"].includes(progress.book))) {
+                    // Cargar progreso guardado
+                    bookSelect.value = progress.book;
+                    await handleBookChange();
+
+                    if (progress.chapter) {
+                        // Esperar a que se carguen los capítulos
+                        setTimeout(() => {
+                            if (chapterSelect.querySelector(`option[value="${progress.chapter}"]`)) {
+                                chapterSelect.value = progress.chapter;
+                                handleChapterChange();
+                            }
+                        }, 300);
+                    }
+                } else {
+                    // Empezar desde Génesis 1:1
+                    const firstBook = books["Antiguo Testamento"][0];
+                    if (firstBook) {
+                        bookSelect.value = firstBook;
+                        await handleBookChange();
+
+                        // Esperar a que se carguen los capítulos
+                        setTimeout(() => {
+                            if (chapterSelect.querySelector('option[value="1"]')) {
+                                chapterSelect.value = "1";
+                                handleChapterChange();
+                            }
+                        }, 300);
+                    }
+                }
+            } catch (error) {
+                console.error('Error cargando progreso:', error);
+                // Empezar desde Génesis 1:1 como fallback
+                const firstBook = books["Antiguo Testamento"][0];
+                if (firstBook) {
+                    bookSelect.value = firstBook;
+                    await handleBookChange();
+
+                    setTimeout(() => {
+                        if (chapterSelect.querySelector('option[value="1"]')) {
+                            chapterSelect.value = "1";
+                            handleChapterChange();
+                        }
+                    }, 300);
+                }
+            }
+        }
+
+        // Manejar cambio de libro
+        async function handleBookChange() {
+            currentBook = bookSelect.value;
+            if (currentBook) {
+                await loadChapters(currentBook);
+                showChapterSelector();
+                if (currentView === 'bible') {
+                    showBibleView();
+                }
+                saveProgress(false); // Guardar sin mostrar toast
+            } else {
+                hideChapterSelector();
+                showEmptyState();
+            }
+        }
+
+        // Cargar capítulos desde el servidor
+        async function loadChapters(book) {
+            try {
+                const response = await fetch(`/capitulos/${encodeURIComponent(book)}`);
+                if (!response.ok) throw new Error('Error cargando capítulos');
+
+                chapters = await response.json();
+
+                chapterSelect.innerHTML = '<option value="">Selecciona capítulo</option>';
+                chapters.forEach(chapter => {
+                    const option = document.createElement('option');
+                    option.value = chapter;
+                    option.textContent = `Capítulo ${chapter}`;
+                    chapterSelect.appendChild(option);
+                });
+
+                updateNavigationButtons();
+            } catch (error) {
+                console.error('Error al cargar capítulos:', error);
+                showError('Error al cargar los capítulos');
+            }
+        }
+
+        // Manejar cambio de capítulo
+        async function handleChapterChange() {
+            currentChapter = chapterSelect.value;
+            if (currentBook && currentChapter) {
+                await loadVerses(currentBook, currentChapter);
+                saveProgress(false); // Guardar sin mostrar toast
+            } else {
+                resetVerseDisplay();
+            }
+        }
+
+        // Cargar versículos desde el servidor
+        async function loadVerses(book, chapter) {
+            try {
+                showLoading();
+
+                const response = await fetch(`/versiculos/${encodeURIComponent(book)}/${chapter}`);
+                if (!response.ok) throw new Error('Error cargando versículos');
+
+                verses = await response.json();
+
+                if (Object.keys(verses).length === 0) {
+                    showError('No se encontraron versículos para este capítulo');
+                    return;
+                }
+
+                // Actualizar título
+                bibleTitle.textContent = `${book} ${chapter}`;
+
+                // Mostrar versículos
+                displayVerses(verses);
+
+                hideLoading();
+                showBibleView();
+                updateNavigationButtons();
+            } catch (error) {
+                console.error('Error al cargar versículos:', error);
+                showError('Error al cargar los versículos');
+            }
+        }
+
+        // Mostrar versículos
+        function displayVerses(versesData) {
+            versesContainer.innerHTML = '';
+
+            Object.entries(versesData).forEach(([verseNum, text]) => {
+                const verseElement = document.createElement('div');
+                verseElement.className = 'verse';
+                verseElement.innerHTML = `
+                                <span class="verse-number">${verseNum}</span>
+                                <span class="verse-text">${text}</span>
+                            `;
+
+                // Tocar en un versículo para cargar su comentario
+                verseElement.addEventListener('click', function () {
+                    // Remover clase active de otros versículos
+                    document.querySelectorAll('.verse').forEach(v => v.classList.remove('active'));
+                    // Agregar clase active al versículo seleccionado
+                    this.classList.add('active');
+
+                    currentVerse = verseNum;
+                    loadCommentary(currentBook, currentChapter, verseNum);
+                });
+
+                versesContainer.appendChild(verseElement);
+            });
+        }
+
+        // Cargar comentario desde el servidor
+        async function loadCommentary(book, chapter, verse) {
+            try {
+                const response = await fetch(`/comentarios/${encodeURIComponent(book)}/${chapter}/${verse}`);
+                if (!response.ok) throw new Error('Error cargando comentario');
+
+                const commentary = await response.json();
+
+                // Actualizar título del modal
+                modalTitle.textContent = `${book} ${chapter}:${verse}`;
+
+                // Mostrar comentario
+                commentaryText.innerHTML = `<p>${commentary.comentario}</p>`;
+
+                // Mostrar referencias SEPARADAS Y COMPLETADAS
+                if (commentary.referencias_separadas && commentary.referencias_separadas.length > 0) {
+                    referencesList.innerHTML = '';
+
+                    commentary.referencias_separadas.forEach(ref => {
+                        const refItem = document.createElement('div');
+                        refItem.className = 'reference-item';
+                        refItem.innerHTML = `
+                                    <div class="reference-text">${ref}</div>
+                                    <div class="reference-verse">Toca para ver este versículo</div>
+                                `;
+
+                        refItem.addEventListener('click', function () {
+                            loadReferenceVerse(ref);
+                        });
+
+                        referencesList.appendChild(refItem);
+                    });
+                } else {
+                    referencesList.innerHTML = '<p>No hay referencias disponibles para este versículo.</p>';
+                }
+
+                openCommentaryModal();
+                switchTab('commentary');
+            } catch (error) {
+                console.error('Error al cargar comentario:', error);
+                commentaryText.innerHTML = '<p>Error al cargar el comentario</p>';
+                referencesList.innerHTML = '<p>Error al cargar las referencias</p>';
+            }
+        }
+
+        // Cargar versículo de referencia desde el servidor
+        async function loadReferenceVerse(reference) {
+            try {
+                const response = await fetch(`/referencia/${encodeURIComponent(reference)}`);
+                if (!response.ok) throw new Error('Error cargando referencia');
+
+                const verseData = await response.json();
+
+                if (verseData.error) {
+                    referenceVerseContent.innerHTML = `<p>${verseData.error}</p>`;
+                } else {
+                    referenceModalTitle.textContent = reference;
+                    referenceVerseContent.innerHTML = `
+                                    <span class="verse-number">${verseData.versiculo}</span>
+                                    <span class="verse-text">${verseData.texto}</span>
+                                `;
+                }
+
+                openReferenceModal();
+            } catch (error) {
+                console.error('Error al cargar referencia:', error);
+                referenceVerseContent.innerHTML = '<p>Error al cargar la referencia</p>';
+            }
+        }
+
+        // Navegación entre capítulos - CORREGIDA
+        function goToPrevChapter() {
+            if (currentBook && currentChapter) {
+                const currentChapterNum = parseInt(currentChapter);
+                const prevChapter = currentChapterNum - 1;
+
+                if (prevChapter >= 1) {
+                    // Buscar si el capítulo anterior existe en la lista de capítulos
+                    const prevChapterStr = prevChapter.toString();
+                    if (chapters.includes(prevChapterStr)) {
+                        chapterSelect.value = prevChapterStr;
+                        handleChapterChange();
+                    } else {
+                        // Si no existe, buscar el capítulo anterior más cercano
+                        const availablePrevChapters = chapters.filter(ch => parseInt(ch) < currentChapterNum);
+                        if (availablePrevChapters.length > 0) {
+                            const nearestPrevChapter = Math.max(...availablePrevChapters.map(ch => parseInt(ch))).toString();
+                            chapterSelect.value = nearestPrevChapter;
+                            handleChapterChange();
+                        }
+                    }
+                }
+            }
+        }
+
+        function goToNextChapter() {
+            if (currentBook && currentChapter) {
+                const currentChapterNum = parseInt(currentChapter);
+                const nextChapter = currentChapterNum + 1;
+
+                // Buscar si el capítulo siguiente existe en la lista de capítulos
+                const nextChapterStr = nextChapter.toString();
+                if (chapters.includes(nextChapterStr)) {
+                    chapterSelect.value = nextChapterStr;
+                    handleChapterChange();
+                } else {
+                    // Si no existe, buscar el capítulo siguiente más cercano
+                    const availableNextChapters = chapters.filter(ch => parseInt(ch) > currentChapterNum);
+                    if (availableNextChapters.length > 0) {
+                        const nearestNextChapter = Math.min(...availableNextChapters.map(ch => parseInt(ch))).toString();
+                        chapterSelect.value = nearestNextChapter;
+                        handleChapterChange();
+                    }
+                }
+            }
+        }
+
+        // Búsqueda en tiempo real
+        async function performSearch() {
+            const query = searchInputModal.value.trim();
+            if (!query) {
+                searchResultsContainer.innerHTML = `
+                                <div class="empty-state">
+                                    <div class="empty-state-icon">🔍</div>
+                                    <p>Escribe algo para buscar</p>
+                                </div>
+                            `;
+                return;
+            }
+
+            try {
+                const response = await fetch(`/buscar?q=${encodeURIComponent(query)}`);
+                if (!response.ok) throw new Error('Error en búsqueda');
+
+                const results = await response.json();
+                displaySearchResults(results, query);
+            } catch (error) {
+                console.error('Error en la búsqueda:', error);
+                searchResultsContainer.innerHTML = '<p>Error en la búsqueda. Intenta nuevamente.</p>';
+            }
+        }
+
+        // Mostrar resultados de búsqueda
+        function displaySearchResults(results, query) {
+            searchResultsContainer.innerHTML = '';
+
+            if (results.length === 0) {
+                searchResultsContainer.innerHTML = '<p>No se encontraron resultados para: ' + query + '</p>';
+                return;
+            }
+
+            results.forEach(result => {
+                const resultItem = document.createElement('div');
+                resultItem.className = 'result-item';
+
+                // Resaltar el término de búsqueda en el texto
+                const highlightedText = result.texto.replace(
+                    new RegExp(query.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'), 'gi'),
+                    match => `<span class="highlight">${match}</span>`
+                );
+
+                resultItem.innerHTML = `
+                                <div class="result-reference">${result.libro} ${result.capitulo}:${result.versiculo}</div>
+                                <div class="result-text">${highlightedText}</div>
+                            `;
+
+                // Tocar en un resultado para ir a ese pasaje
+                resultItem.addEventListener('click', function () {
+                    goToPassage(result.libro, result.capitulo, result.versiculo);
+                    closeSearchModal();
+                });
+
+                searchResultsContainer.appendChild(resultItem);
+            });
+        }
+
+        // Ir a un pasaje específico
+        function goToPassage(book, chapter, verse) {
+            // Seleccionar el libro
+            bookSelect.value = book;
+            handleBookChange();
+
+            // Esperar a que se carguen los capítulos y luego seleccionar el capítulo
+            setTimeout(() => {
+                if (chapterSelect.querySelector(`option[value="${chapter}"]`)) {
+                    chapterSelect.value = chapter;
+                    handleChapterChange();
+                }
+            }, 500);
+        }
+
+        // Guardar progreso en localStorage
+        function saveProgress(showToast = false) {
+            const now = Date.now();
+            // Evitar guardados muy frecuentes
+            if (now - lastSaveTime < SAVE_COOLDOWN) {
+                return;
+            }
+
+            lastSaveTime = now;
+
+            const progress = {
+                book: currentBook,
+                chapter: currentChapter,
+                verse: currentVerse,
+                timestamp: now
+            };
+
+            // Guardar en localStorage
+            localStorage.setItem('bibleProgress', JSON.stringify(progress));
+
+            // Mostrar toast solo si se solicita explícitamente
+            if (showToast) {
+                showToast('Progreso guardado');
+            }
+        }
+
+        // Funciones de UI
+        function showChapterSelector() {
+            chapterSelector.style.display = 'flex';
+            emptyState.style.display = 'none';
+        }
+
+        function hideChapterSelector() {
+            chapterSelector.style.display = 'none';
+        }
+
+        function showBibleView() {
+            bibleContent.style.display = 'block';
+            cbaContent.style.display = 'none';
+            emptyState.style.display = 'none';
+        }
+
+        function showEmptyState() {
+            bibleContent.style.display = 'none';
+            cbaContent.style.display = 'none';
+            chapterSelector.style.display = 'none';
+            emptyState.style.display = 'block';
+        }
+
+        function showLoading() {
+            versesContainer.innerHTML = `
+                            <div class="loading">
+                                <div class="loading-spinner"></div>
+                                Cargando...
+                            </div>
+                        `;
+        }
+
+        function hideLoading() {
+            const loading = versesContainer.querySelector('.loading');
+            if (loading) {
+                loading.style.display = 'none';
+            }
+        }
+
+        function resetVerseDisplay() {
+            versesContainer.innerHTML = '';
+            bibleTitle.textContent = 'Selecciona un pasaje';
+        }
+
+        // Actualizar botones de navegación - CORREGIDA
+        function updateNavigationButtons() {
+            if (!currentBook || !currentChapter || !chapters.length) {
+                prevChapterBtn.disabled = true;
+                nextChapterBtn.disabled = true;
+                return;
+            }
+
+            const currentChapterNum = parseInt(currentChapter);
+            const chapterNumbers = chapters.map(ch => parseInt(ch)).sort((a, b) => a - b);
+
+            // Verificar si hay capítulo anterior
+            const hasPrevious = chapterNumbers.some(ch => ch < currentChapterNum);
+            // Verificar si hay capítulo siguiente
+            const hasNext = chapterNumbers.some(ch => ch > currentChapterNum);
+
+            prevChapterBtn.disabled = !hasPrevious;
+            nextChapterBtn.disabled = !hasNext;
+        }
+
+        function showError(message) {
+            versesContainer.innerHTML = `<div class="empty-state"><p>${message}</p></div>`;
+        }
+
+        function showToast(message) {
+            saveToast.style.display = 'flex';
+            saveToast.querySelector('span:last-child').textContent = message;
+            saveToast.classList.add('show');
+
+            setTimeout(() => {
+                saveToast.classList.remove('show');
+                setTimeout(() => {
+                    saveToast.style.display = 'none';
+                }, 300);
+            }, 2000);
+        }
+
+        // Funciones del modal
+        function openCommentaryModal() {
+            commentaryModal.classList.add('active');
+            document.body.style.overflow = 'hidden';
+        }
+
+        function closeCommentaryModal() {
+            commentaryModal.classList.remove('active');
+            document.body.style.overflow = 'auto';
+        }
+
+        function openReferenceModal() {
+            referenceModal.classList.add('active');
+        }
+
+        function closeReferenceModal() {
+            referenceModal.classList.remove('active');
+        }
+
+        function openSearchModal() {
+            searchModal.classList.add('active');
+            searchInputModal.focus();
+            searchInputModal.value = '';
+            searchResultsContainer.innerHTML = `
+                            <div class="empty-state">
+                                <div class="empty-state-icon">🔍</div>
+                                <p>Escribe algo para buscar</p>
+                            </div>
+                        `;
+        }
+
+        function closeSearchModal() {
+            searchModal.classList.remove('active');
+            searchInputModal.value = '';
+        }
+
+        function switchTab(tabName) {
+            // Actualizar pestañas activas
+            modalTabs.forEach(tab => {
+                if (tab.dataset.tab === tabName) {
+                    tab.classList.add('active');
+                } else {
+                    tab.classList.remove('active');
+                }
+            });
+
+            // Mostrar contenido activo
+            tabContents.forEach(content => {
+                if (content.id === tabName + 'Tab') {
+                    content.classList.add('active');
+                } else {
+                    content.classList.remove('active');
+                }
+            });
+        }
+    </script>
+</body>
+</html>
